@@ -145,6 +145,7 @@ for stat in range(1, 9):
 
 # Update coverage information after each test case
 def check_execution(target, fuzz_data_logger, session, sock, *args, **kwargs):
+    return
     session_coverage = session.coverage
     # Parse and calculate coverage information
     session_coverage.parse_coverage_result()

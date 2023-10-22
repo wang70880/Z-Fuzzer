@@ -126,6 +126,8 @@ def parse_zcl_cfg(module, cfg_file):
 # ----------------------------------------------------------- #
 if __name__ == "__main__":
     if len(sys.argv) > 1:
+        source_name = sys.argv[1].split('.c', 1)[0] + '.c'
+        stmt_pattern = "[{}]:[0-9]+:[0-9]+".format(source_name)
         zcl_module = Module()
         parse_zcl_cfg(zcl_module, sys.argv[1])
         if zcl_module.total_functions > 0:

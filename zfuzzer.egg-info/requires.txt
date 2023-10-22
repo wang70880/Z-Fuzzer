@@ -1,0 +1,14 @@
+attrs
+backports.shutil_get_terminal_size
+click
+colorama
+crc32c
+Flask
+future
+impacket
+ldap3==2.5.1
+psutil
+pyserial
+pydot
+six
+tornado~=5.0

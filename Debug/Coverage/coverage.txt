@@ -1,0 +1,3782 @@
+Code Coverage Result
+=============================================
+
+Program "zstack" coverage: 12.90%
+
++------------------------------------------+
+
+Module "AF" coverage: 24.51%
+
+Function "AF_DataRequest" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\af\AF.c
+
+   Line    608 : Col   3 -  22  addr(0x00201D36)
+   Line    621 : Col   3 -  45  addr(0x00201D3A)
+   Line    624 : Col   3 -  41  addr(0x00201D42)
+   Line    626 : Col   5 -  43  addr(0x00201D46)
+   Line      632 -    633 : Col   5 - 115  addr(0x00201D4C)
+   Line    636 : Col   7 -  35  addr(0x00201D62)
+   Line      641 -    642 : Col   3 -  52  addr(0x00201D66)
+   Line    645 : Col   5 -  79  addr(0x00201D70)
+   Line    648 : Col   7 -  42  addr(0x00201D78)
+   Line    667 : Col   3 -  43  addr(0x00201D7C)
+   Line    668 : Col   3 -  41  addr(0x00201D82)
+   Line    670 : Col   5 -  71  addr(0x00201D88)
+   Line    653 : Col   7 -  49  addr(0x00201D92)
+   Line      659 -    661 : Col   8 -  51  addr(0x00201D9A)
+   Line    663 : Col   5 -  38  addr(0x00201DA4)
+   Line    674 : Col   5 -  57  addr(0x00201DA8)
+   Line    678 : Col   3 -  40  addr(0x00201DAE)
+   Line    680 : Col   5 -  44  addr(0x00201DB4)
+   Line    684 : Col   5 -  35  addr(0x00201DBE)
+   Line    686 : Col   5 -  45  addr(0x00201DC4)
+   Line      688 -    689 : Col  15 -  80  addr(0x00201DDA)
+   Line    690 : Col   7 -  16  addr(0x00201DE0)
+   Line    692 : Col   9 -  29  addr(0x00201DE4)
+   Line    693 : Col   9 -  29  addr(0x00201DEA)
+   Line    723 : Col   5 -  27  addr(0x00201DF0)
+   Line    726 : Col   3 -  32  addr(0x00201DF6)
+   Line    728 : Col   5 -  48  addr(0x00201DFA)
+   Line    731 : Col   3 -  18  addr(0x00201E06)
+   Line    733 : Col   3 -  48  addr(0x00201E0C)
+   Line    735 : Col   5 -  44  addr(0x00201E1C)
+   Line    739 : Col   5 -  52  addr(0x00201E1C)
+   Line    742 : Col   3 -  31  addr(0x00201E1E)
+   Line    743 : Col   3 -  38  addr(0x00201E28)
+   Line    744 : Col   3 -  40  addr(0x00201E2E)
+   Line    745 : Col   3 -  26  addr(0x00201E30)
+   Line    746 : Col   3 -  26  addr(0x00201E30)
+   Line    747 : Col   3 -  26  addr(0x00201E30)
+   Line    748 : Col   3 -  29  addr(0x00201E30)
+   Line    755 : Col   3 -  52  addr(0x00201E42)
+   Line    757 : Col   3 -  58  addr(0x00201E48)
+   Line    759 : Col   5 -  29  addr(0x00201E50)
+   Line    777 : Col   5 -  36  addr(0x00201E54)
+   Line    779 : Col   7 -  29  addr(0x00201E5E)
+   Line    781 : Col   9 -  45  addr(0x00201E64)
+   Line    785 : Col   9 -  42  addr(0x00201E6A)
+   Line    790 : Col   7 -  35  addr(0x00201E6E)
+   Line      803 -    804 : Col   3 -  60  addr(0x00201E76)
+   Line    806 : Col   5 -  53  addr(0x00201E8A)
+   Line    809 : Col   3 -  33  addr(0x00201E94)
+   Line    811 : Col   5 -  17  addr(0x00201E98)
+   Line    814 : Col   3 -  26  addr(0x00201E9E)
+   Line    696 : Col  10 -  33  addr(0x00201EA6)
+   Line    698 : Col   7 -  51  addr(0x00201EAA)
+   Line    702 : Col   3 -  20  addr(0x00201EB0)
+   Line      704 -    706 : Col   3 -  53  addr(0x00201EB6)
+   Line    708 : Col   5 -  41  addr(0x00201ECA)
+   Line    711 : Col   3 -  34  addr(0x00201ECA)
+   Line    713 : Col   5 -  50  addr(0x00201ECE)
+   Line    716 : Col   3 -  33  addr(0x00201EDA)
+   Line    718 : Col   5 -  52  addr(0x00201EDE)
+   Line    719 : Col   5 -  26  addr(0x00201EEA)
+
+Function "afDataConfirm" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\af\AF.c
+
+   Line    289 : Col   3 -  42  addr(0x00201CFE)
+   Line    290 : Col   3 -  23  addr(0x00201D04)
+   Line    291 : Col   5 -  11  addr(0x00201D06)
+   Line    294 : Col   3 -  75  addr(0x00201D06)
+   Line    295 : Col   3 -  15  addr(0x00201D0C)
+   Line    298 : Col   5 -  44  addr(0x00201D0E)
+   Line    299 : Col   5 -  32  addr(0x00201D12)
+   Line    300 : Col   5 -  32  addr(0x00201D14)
+   Line    301 : Col   5 -  30  addr(0x00201D16)
+   Line    316 : Col   7 -  59  addr(0x00201D18)
+   Line    319 : Col   1 -   1  addr(0x00201D1A)
+
+Function "afDataReqMTU" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\af\AF.c
+
+   Line   1002 : Col   3 -  28  addr(0x00201F16)
+   Line   1004 : Col   5 -  29  addr(0x00201F20)
+   Line   1008 : Col   5 -  30  addr(0x00201F20)
+   Line   1011 : Col   3 -  54  addr(0x00201F20)
+
+Function "afFindEndPointDesc" coverage: 100.00%
+
+Function "afRegister" coverage: 66.67%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\af\AF.c
+
+   Line    208 : Col   5 -  38  addr(0x00201CDE)
+
+Function "afRegisterExtended" coverage: 100.00%
+
+Function "afFindEndPointDescList" coverage: 100.00%
+
++------------------------------------------+
+
+Module "cpu" coverage: 100.00%
+
+Function "CPUcpsid" coverage: 100.00%
+
+Function "CPUcpsie" coverage: 100.00%
+
++------------------------------------------+
+
+Module "gpio" coverage: 0.00%
+
+Function "GPIOPinRead" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\gpio.c
+
+   Line    597 : Col   5 -  61  addr(0x00207E0C)
+
+Function "GPIOPowIntClear" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\gpio.c
+
+   Line   1270 : Col   5 -  23  addr(0x00207E14)
+   Line   1280 : Col   5 -  31  addr(0x00207E16)
+   Line   1284 : Col   5 -  31  addr(0x00207E16)
+   Line   1288 : Col   5 -  31  addr(0x00207E20)
+   Line   1292 : Col   5 -  31  addr(0x00207E2A)
+   Line   1294 : Col   9 -  28  addr(0x00207E32)
+   Line   1296 : Col   5 -  44  addr(0x00207E32)
+   Line   1301 : Col   5 -  59  addr(0x00207E32)
+
++------------------------------------------+
+
+Module "interrupt" coverage: 22.22%
+
+Function "IntMasterDisable" coverage: 100.00%
+
+Function "IntMasterEnable" coverage: 100.00%
+
+Function "IntPendClear" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\interrupt.c
+
+   Line    691 : Col   5 -  37  addr(0x00201FB2)
+   Line    696 : Col   9 -  56  addr(0x00201FB8)
+   Line    698 : Col  10 -  43  addr(0x00201FC0)
+   Line    703 : Col   9 -  56  addr(0x00201FC4)
+   Line    705 : Col  10 -  32  addr(0x00201FCE)
+   Line      710 -    711 : Col   9 -  45  addr(0x00201FD0)
+   Line    713 : Col   1 -   1  addr(0x00201FD6)
+
++------------------------------------------+
+
+Module "zmac_cb" coverage: 0.00%
+
+Function "MAC_CbackCheckPending" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\zmac\f8w\zmac_cb.c
+
+   Line    597 : Col   5 -  46  addr(0x002067AC)
+
+Function "MAC_CbackEvent" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\zmac\f8w\zmac_cb.c
+
+   Line    150 : Col   9 -  33  addr(0x002065C2)
+   Line    151 : Col  10 -  38  addr(0x002065C4)
+   Line    157 : Col   3 -  15  addr(0x002065CC)
+   Line    159 : Col   5 -  11  addr(0x002065D0)
+   Line    163 : Col   3 -  35  addr(0x002065D0)
+   Line    173 : Col   5 -  46  addr(0x002065D8)
+   Line      174 -    179 : Col   5 -  41  addr(0x002065E0)
+   Line    188 : Col   5 -  45  addr(0x002065FC)
+   Line    190 : Col   7 -  69  addr(0x00206604)
+   Line    192 : Col  10 -  40  addr(0x0020660E)
+   Line    194 : Col   7 -  50  addr(0x00206612)
+   Line    196 : Col   9 -  40  addr(0x00206624)
+   Line    200 : Col   9 -  71  addr(0x00206624)
+   Line    204 : Col   5 -  64  addr(0x00206628)
+   Line    207 : Col   7 -  76  addr(0x00206634)
+   Line    213 : Col   9 -  46  addr(0x00206640)
+   Line    213 : Col   9 -  47  addr(0x00206646)
+   Line    215 : Col   9 -  66  addr(0x00206646)
+   Line    216 : Col   9 -  68  addr(0x00206650)
+   Line    219 : Col  11 -  47  addr(0x0020665E)
+   Line    219 : Col  11 -  47  addr(0x00206662)
+   Line    219 : Col  11 -  48  addr(0x00206666)
+   Line    220 : Col  11 -  17  addr(0x00206666)
+   Line    222 : Col   9 -  45  addr(0x00206668)
+   Line    222 : Col   9 -  45  addr(0x0020666A)
+   Line    230 : Col   5 -  55  addr(0x0020666E)
+   Line    233 : Col   3 -  44  addr(0x00206678)
+   Line    235 : Col  31 -  74  addr(0x0020667C)
+   Line    237 : Col   5 -  68  addr(0x0020667C)
+   Line    238 : Col   5 -  52  addr(0x00206688)
+   Line    239 : Col   5 -  72  addr(0x0020668E)
+   Line    240 : Col   5 -  51  addr(0x00206698)
+   Line    242 : Col   8 -  38  addr(0x002066A2)
+   Line    244 : Col  23 -  56  addr(0x002066A6)
+   Line    246 : Col   5 -  29  addr(0x002066A6)
+   Line    248 : Col  13 -  32  addr(0x002066AC)
+   Line    249 : Col   7 -  26  addr(0x002066AC)
+   Line    251 : Col   7 -  42  addr(0x002066B0)
+   Line    253 : Col   9 -  59  addr(0x002066B4)
+   Line    254 : Col   9 -  81  addr(0x002066BA)
+   Line    258 : Col   9 -  67  addr(0x002066C0)
+   Line    259 : Col   9 -  86  addr(0x002066C0)
+   Line    262 : Col   7 -  26  addr(0x002066D2)
+   Line    266 : Col   3 -  91  addr(0x002066D8)
+   Line    269 : Col   5 -  37  addr(0x002066E6)
+   Line    271 : Col  13 -  60  addr(0x002066EC)
+   Line    272 : Col  13 -  66  addr(0x002066EC)
+   Line    273 : Col  13 -  58  addr(0x002066F2)
+   Line      274 -    275 : Col   7 -  72  addr(0x002066F8)
+   Line    279 : Col   9 -  48  addr(0x00206716)
+   Line    281 : Col  11 -  50  addr(0x0020671A)
+   Line    284 : Col  11 -  53  addr(0x00206720)
+   Line    286 : Col  11 -  17  addr(0x00206728)
+   Line    296 : Col  23 -  50  addr(0x0020672A)
+   Line    298 : Col   9 -  67  addr(0x0020672A)
+   Line      301 -    302 : Col   9 -  50  addr(0x00206736)
+   Line    305 : Col  11 -  64  addr(0x00206746)
+   Line    308 : Col  13 -  51  addr(0x0020674E)
+   Line    310 : Col  11 -  17  addr(0x00206754)
+   Line    314 : Col  10 -  85  addr(0x00206756)
+   Line    316 : Col  25 -  48  addr(0x00206766)
+   Line    318 : Col   7 -  86  addr(0x00206766)
+   Line    321 : Col   9 -  67  addr(0x0020676E)
+   Line    333 : Col   7 -  51  addr(0x00206778)
+   Line    338 : Col   3 - 112  addr(0x00206782)
+   Line    347 : Col   5 -  62  addr(0x00206790)
+   Line    350 : Col   1 -   1  addr(0x00206796)
+   Line    324 : Col   5 -  44  addr(0x0020679A)
+   Line    326 : Col   7 -  55  addr(0x0020679E)
+   Line    328 : Col   7 -  49  addr(0x002067A2)
+
+Function "MAC_CbackQueryRetransmit" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\zmac\f8w\zmac_cb.c
+
+   Line    636 : Col   3 -  12  addr(0x002067B0)
+
+Function "ZMacLqiAdjust" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\zmac\f8w\zmac_cb.c
+
+   Line    687 : Col   3 -  34  addr(0x002067B4)
+   Line    689 : Col  12 -  25  addr(0x002067BA)
+   Line    692 : Col   5 -  30  addr(0x002067BC)
+   Line    694 : Col   8 -  27  addr(0x002067C2)
+   Line    696 : Col  10 -  35  addr(0x002067C4)
+   Line    698 : Col   8 -  27  addr(0x002067CA)
+   Line    701 : Col   5 -  38  addr(0x002067CA)
+   Line    707 : Col   7 -  80  addr(0x002067CE)
+   Line    715 : Col   5 -  48  addr(0x002067D8)
+   Line    717 : Col   1 -   1  addr(0x002067E4)
+
++------------------------------------------+
+
+Module "mac_pib" coverage: 0.00%
+
+Function "MAC_MlmeGetReq" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\high_level\mac_pib.c
+
+   Line    364 : Col   3 -  61  addr(0x0020575E)
+   Line    366 : Col   5 -  37  addr(0x00205768)
+   Line    369 : Col   3 -  38  addr(0x0020576C)
+   Line    369 : Col   3 -  39  addr(0x00205770)
+   Line    370 : Col   3 -  81  addr(0x00205770)
+   Line    371 : Col   3 -  37  addr(0x0020578C)
+   Line    371 : Col   3 -  37  addr(0x0020578E)
+   Line    371 : Col   3 -  38  addr(0x00205792)
+   Line    372 : Col   3 -  21  addr(0x00205792)
+
+Function "macPibIndex" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\high_level\mac_pib.c
+
+   Line    323 : Col   3 -  83  addr(0x0020573C)
+   Line    325 : Col   5 -  71  addr(0x00205746)
+   Line    327 : Col   8 -  88  addr(0x00205748)
+   Line    329 : Col   5 -  71  addr(0x00205750)
+   Line    333 : Col   5 -  27  addr(0x00205756)
+
++------------------------------------------+
+
+Module "mac_autopend" coverage: 0.00%
+
+Function "MAC_SrcMatchAckAllPending" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    264 : Col   3 -  22  addr(0x002058F4)
+   Line    266 : Col   5 -  38  addr(0x002058FA)
+   Line    269 : Col   5 -  34  addr(0x002058FA)
+   Line    273 : Col   5 -  39  addr(0x00205902)
+   Line    276 : Col   5 -  35  addr(0x00205902)
+   Line    276 : Col   5 -  36  addr(0x0020590C)
+   Line    278 : Col   1 -   1  addr(0x00205910)
+
+Function "MAC_SrcMatchAddEntry" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    158 : Col   3 -  98  addr(0x002057A8)
+   Line    160 : Col   5 -  33  addr(0x002057B4)
+   Line    164 : Col   3 -  77  addr(0x002057B8)
+   Line    166 : Col   5 -  32  addr(0x002057C4)
+   Line    172 : Col   3 -  52  addr(0x002057C6)
+   Line      175 -    176 : Col   3 -  88  addr(0x002057FC)
+   Line    181 : Col   3 -  43  addr(0x00205806)
+   Line    184 : Col   5 -  34  addr(0x0020580E)
+   Line    185 : Col   5 -  34  addr(0x00205812)
+   Line    186 : Col   5 -  49  addr(0x00205818)
+   Line    187 : Col   5 -  49  addr(0x00205818)
+   Line      188 -    189 : Col   5 -  58  addr(0x00205818)
+   Line    178 : Col   5 -  28  addr(0x0020584C)
+   Line      194 -    195 : Col   5 -  69  addr(0x00205850)
+   Line    199 : Col   3 -  51  addr(0x0020585C)
+   Line    202 : Col   3 -  56  addr(0x002058AE)
+   Line    204 : Col   3 -  21  addr(0x002058B8)
+
+Function "MAC_SrcMatchCheckAllPending" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    292 : Col   3 -  42  addr(0x00205912)
+   Line    294 : Col   5 -  38  addr(0x0020591A)
+   Line    297 : Col   3 -  37  addr(0x0020591E)
+
+Function "MAC_SrcMatchCheckResult" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    313 : Col   3 -  35  addr(0x00205922)
+   Line    315 : Col   5 -  18  addr(0x00205928)
+   Line    318 : Col   3 -  42  addr(0x0020592C)
+   Line    318 : Col   3 -  43  addr(0x00205930)
+   Line    320 : Col   3 -  37  addr(0x00205930)
+
+Function "MAC_SrcMatchDeleteEntry" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    228 : Col   3 -  98  addr(0x002058CE)
+   Line    234 : Col   3 -  49  addr(0x002058DA)
+   Line    236 : Col   3 -  43  addr(0x002058E0)
+   Line    238 : Col   5 -  33  addr(0x002058E4)
+   Line    242 : Col   3 -  57  addr(0x002058E8)
+   Line    244 : Col   3 -  21  addr(0x002058F0)
+
+Function "macSrcMatchCheckSrcAddr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    406 : Col   3 -  43  addr(0x00205940)
+   Line    408 : Col   5 -  34  addr(0x00205946)
+   Line    409 : Col   5 -  34  addr(0x0020594A)
+   Line    410 : Col   5 -  49  addr(0x0020594A)
+   Line    411 : Col   5 -  49  addr(0x0020594A)
+   Line    412 : Col   5 -  18  addr(0x0020594A)
+   Line    413 : Col   5 -  46  addr(0x0020594A)
+   Line    414 : Col   5 -  18  addr(0x00205952)
+   Line    415 : Col   5 -  52  addr(0x00205964)
+   Line    419 : Col   5 -  31  addr(0x0020596A)
+   Line    420 : Col   5 -  44  addr(0x0020596A)
+   Line    421 : Col   5 -  18  addr(0x0020596A)
+   Line    422 : Col   5 -  50  addr(0x0020596A)
+   Line    425 : Col   3 -  17  addr(0x00205974)
+   Line    429 : Col   5 -  61  addr(0x00205976)
+   Line    434 : Col   5 -  34  addr(0x0020597E)
+   Line      437 -    438 : Col   5 -  47  addr(0x00205982)
+   Line    440 : Col   5 -  59  addr(0x00205996)
+   Line      425 -    426 : Col  63 -  17  addr(0x002059A4)
+   Line    425 : Col  19 -  61  addr(0x002059A8)
+   Line    447 : Col   3 -  36  addr(0x002059AC)
+   Line    443 : Col   7 -  23  addr(0x002059B2)
+
+Function "macSrcMatchGetExtAddrEnableBit" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    627 : Col   3 -  33  addr(0x00205A28)
+
+Function "macSrcMatchGetShortAddrEnableBit" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    609 : Col   3 -  35  addr(0x00205A1E)
+
+Function "macSrcMatchSetEnableBit" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_autopend.c
+
+   Line    502 : Col   3 -  22  addr(0x002059BC)
+   Line    504 : Col   5 -  49  addr(0x002059D0)
+   Line    506 : Col   7 -  54  addr(0x002059D4)
+   Line    507 : Col   7 -  42  addr(0x002059D8)
+   Line    508 : Col   7 -  40  addr(0x002059D8)
+   Line    513 : Col   7 -  52  addr(0x002059DE)
+   Line    514 : Col   7 -  68  addr(0x002059E2)
+   Line    515 : Col   7 -  40  addr(0x002059E2)
+   Line    521 : Col   5 -  49  addr(0x002059E8)
+   Line    523 : Col   7 -  54  addr(0x002059EC)
+   Line    524 : Col   7 -  43  addr(0x002059F0)
+   Line    525 : Col   7 -  40  addr(0x002059F0)
+   Line    526 : Col   7 -  45  addr(0x002059FA)
+   Line    530 : Col   7 -  52  addr(0x00205A02)
+   Line    531 : Col   7 -  69  addr(0x00205A06)
+   Line    532 : Col   7 -  40  addr(0x00205A06)
+   Line    533 : Col   7 -  43  addr(0x00205A10)
+   Line    536 : Col   1 -   1  addr(0x00205A1A)
+
++------------------------------------------+
+
+Module "OnBoard" coverage: 0.00%
+
+Function "Onboard_rand" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Projects\zstack\ZMain\TI2538DB\OnBoard.c
+
+   Line    375 : Col   4 -  38  addr(0x00202058)
+
++------------------------------------------+
+
+Module "hal_sys_ctrl" coverage: 0.00%
+
+Function "SysCtrlPowIntClear" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\hal_sys_ctrl.c
+
+   Line      290 -    291 : Col   3 -  32  addr(0x00207E54)
+   Line    292 : Col   3 -  51  addr(0x00207E5C)
+
++------------------------------------------+
+
+Module "systick" coverage: 0.00%
+
+Function "SysTickIntDisable" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\systick.c
+
+   Line    194 : Col   5 -  49  addr(0x00208238)
+   Line    195 : Col   1 -   1  addr(0x00208242)
+
+Function "SysTickIntEnable" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\systick.c
+
+   Line    175 : Col   5 -  46  addr(0x0020822C)
+   Line    176 : Col   1 -   1  addr(0x00208236)
+
++------------------------------------------+
+
+Module "hal_systick" coverage: 0.00%
+
+Function "SysTickIntHandler" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\hal_systick.c
+
+   Line     77 : Col   3 -  30  addr(0x0020853E)
+
++------------------------------------------+
+
+Module "uart" coverage: 0.00%
+
+Function "UARTCharGetNonBlocking" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\uart.c
+
+   Line    732 : Col   5 -  53  addr(0x00208136)
+   Line    737 : Col   9 -  44  addr(0x00208140)
+   Line    744 : Col   9 -  19  addr(0x00208144)
+
+Function "UARTCharPutNonBlocking" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\uart.c
+
+   Line    811 : Col   5 -  53  addr(0x0020814C)
+   Line    816 : Col   9 -  46  addr(0x00208156)
+   Line    821 : Col   9 -  21  addr(0x00208158)
+   Line    828 : Col   9 -  22  addr(0x0020815C)
+
+Function "UARTCharsAvail" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\uart.c
+
+   Line    676 : Col   5 -  72  addr(0x00208124)
+
+Function "UARTIntClear" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\driverlib\cc2538\source\uart.c
+
+   Line   1162 : Col   5 -  48  addr(0x00208160)
+   Line   1163 : Col   1 -   1  addr(0x00208164)
+
++------------------------------------------+
+
+Module "ZDObject" coverage: 100.00%
+
+Function "ZDO_AnyClusterMatches" coverage: 100.00%
+
++------------------------------------------+
+
+Module "ZDSecMgr" coverage: 0.00%
+
+Function "ZDSecMgrAuthenticationCheck" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zdo\ZDSecMgr.c
+
+   Line   2502 : Col   3 -  56  addr(0x00204760)
+   Line   2503 : Col   3 -  59  addr(0x00204766)
+   Line   2508 : Col   8 -  56  addr(0x00204774)
+   Line   2511 : Col   5 -  64  addr(0x0020477E)
+   Line   2513 : Col   7 -  68  addr(0x00204788)
+   Line   2528 : Col   7 -  63  addr(0x00204790)
+   Line   2530 : Col   9 -  20  addr(0x0020479A)
+   Line   2534 : Col   3 -  15  addr(0x0020479E)
+
+Function "ZDSecMgrEntryLookupAMI" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zdo\ZDSecMgr.c
+
+   Line    510 : Col   3 -  16  addr(0x002046FE)
+   Line    513 : Col   3 -  32  addr(0x00204702)
+   Line    515 : Col   5 -  20  addr(0x0020470A)
+   Line    517 : Col   7 -  46  addr(0x0020470E)
+   Line    515 : Col  51 -  59  addr(0x00204718)
+   Line    515 : Col  22 -  49  addr(0x0020471A)
+   Line    528 : Col   3 -  27  addr(0x00204720)
+   Line    520 : Col   9 -  41  addr(0x00204724)
+   Line    523 : Col   9 -  24  addr(0x00204728)
+
+Function "ZDSecMgrEntryLookupExt" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zdo\ZDSecMgr.c
+
+   Line    547 : Col   3 -  16  addr(0x00204730)
+   Line    548 : Col   3 -  29  addr(0x00204734)
+   Line    551 : Col   3 -  59  addr(0x00204734)
+   Line    553 : Col   5 -  50  addr(0x0020473E)
+   Line    556 : Col   3 -  16  addr(0x0020474A)
+
+Function "ZDSecMgrExtAddrLookup" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zdo\ZDSecMgr.c
+
+   Line    360 : Col   3 -  37  addr(0x002046DA)
+   Line    361 : Col   3 -  46  addr(0x002046E0)
+   Line    363 : Col   3 -  48  addr(0x002046E8)
+   Line    376 : Col   3 -  16  addr(0x002046F8)
+
++------------------------------------------+
+
+Module "ZDiags" coverage: 0.00%
+
+Function "ZDiagsUpdateStats" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\sys\ZDiags.c
+
+   Line    279 : Col   1 -   1  addr(0x00205680)
+
++------------------------------------------+
+
+Module "zmac" coverage: 0.00%
+
+Function "ZMacGetReq" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\zmac\f8w\zmac.c
+
+   Line    206 : Col   3 -  28  addr(0x00204452)
+   Line    218 : Col   5 -  48  addr(0x00204458)
+   Line    219 : Col   5 -  23  addr(0x00204460)
+   Line    223 : Col   3 -  54  addr(0x00204464)
+
+Function "ZMacSrcMatchAckAllPending" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\zmac\f8w\zmac.c
+
+   Line    816 : Col   3 -  37  addr(0x00204476)
+   Line    818 : Col   3 -  21  addr(0x0020447A)
+
+Function "ZMacSrcMatchAddEntry" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\zmac\f8w\zmac.c
+
+   Line    779 : Col   3 -  56  addr(0x0020446C)
+
+Function "ZMacSrcMatchDeleteEntry" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\zmac\f8w\zmac.c
+
+   Line    797 : Col   3 -  59  addr(0x00204470)
+
++------------------------------------------+
+
+Module "bdb" coverage: 0.00%
+
+Function "bdb_ZclIdentifyCmdInd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\bdb\bdb.c
+
+   Line      330 -    331 : Col   3 -  64  addr(0x00201F3E)
+   Line    334 : Col   5 -  62  addr(0x00201F54)
+   Line    336 : Col   7 -  29  addr(0x00201F56)
+   Line    338 : Col   9 -  64  addr(0x00201F60)
+   Line    339 : Col   9 -  69  addr(0x00201F62)
+   Line    341 : Col  12 -  35  addr(0x00201F68)
+   Line    343 : Col   9 -  53  addr(0x00201F68)
+   Line    344 : Col   9 -  62  addr(0x00201F6C)
+   Line    347 : Col   7 -  41  addr(0x00201F74)
+   Line    349 : Col   9 -  42  addr(0x00201F7C)
+   Line    353 : Col   1 -   1  addr(0x00201F80)
+
++------------------------------------------+
+
+Module "bdb_FindingAndBinding" coverage: 100.00%
+
+Function "bdb_zclFindingBindingEpType" coverage: 100.00%
+
++------------------------------------------+
+
+Module "hal_key" coverage: 0.00%
+
+Function "bspKeyPushedEx" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\hal_key.c
+
+   Line    103 : Col  12 -  78  addr(0x00207D4C)
+   Line    104 : Col  12 -  76  addr(0x00207D5A)
+   Line    108 : Col   3 -  12  addr(0x00207D68)
+   Line    115 : Col   7 -  12  addr(0x00207D6C)
+   Line    116 : Col   7 -  37  addr(0x00207D6E)
+   Line    117 : Col   7 -  35  addr(0x00207D70)
+   Line    110 : Col   5 -  66  addr(0x00207D72)
+   Line    111 : Col   5 -  65  addr(0x00207D7C)
+   Line    113 : Col   5 -  77  addr(0x00207D86)
+   Line    108 : Col  23 -  26  addr(0x00207D90)
+   Line    108 : Col  14 -  21  addr(0x00207D90)
+   Line    121 : Col   3 - 118  addr(0x00207D98)
+
+Function "hal_key_int_keys" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\hal_key.c
+
+   Line    197 : Col   9 -  14  addr(0x00207DA8)
+   Line    204 : Col   3 -  50  addr(0x00207DA8)
+   Line    207 : Col   3 -  34  addr(0x00207DB0)
+   Line    209 : Col   5 -  22  addr(0x00207DB6)
+   Line    211 : Col   3 -  35  addr(0x00207DB6)
+   Line    213 : Col   5 -  22  addr(0x00207DBE)
+   Line    215 : Col   3 -  32  addr(0x00207DBE)
+   Line    217 : Col   5 -  22  addr(0x00207DC6)
+   Line    219 : Col   3 -  34  addr(0x00207DC6)
+   Line    221 : Col   5 -  22  addr(0x00207DCE)
+   Line    228 : Col   3 -  49  addr(0x00207DCE)
+   Line    233 : Col   5 -  22  addr(0x00207DDC)
+   Line    235 : Col   3 -  11  addr(0x00207DDC)
+
+Function "interrupt_keybd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\hal_key.c
+
+   Line    461 : Col   3 -  23  addr(0x00207DE2)
+   Line    465 : Col   3 -  34  addr(0x00207DE6)
+   Line    467 : Col   3 -  46  addr(0x00207DEA)
+   Line    469 : Col   5 -  65  addr(0x00207DF6)
+   Line    474 : Col   1 -   1  addr(0x00207DFE)
+
++------------------------------------------+
+
+Module "hal_assert" coverage: 0.00%
+
+Function "halAssertHandler" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\common\hal_assert.c
+
+   Line     87 : Col   3 -   9  addr(0x00202008)
+
++------------------------------------------+
+
+Module "hal_sleep" coverage: 0.00%
+
+Function "halSleepTimerIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\hal_sleep.c
+
+   Line    603 : Col   3 -  29  addr(0x00208538)
+
++------------------------------------------+
+
+Module "hal_uart" coverage: 0.00%
+
+Function "interrupt_uart1" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\_hal_uart_isr.c
+
+   Line    527 : Col   3 -  60  addr(0x002080FE)
+   Line    528 : Col   3 -  11  addr(0x00208108)
+   Line    530 : Col   3 -  60  addr(0x0020810C)
+   Line    531 : Col   3 -  11  addr(0x00208114)
+
+Function "procRx" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\_hal_uart_isr.c
+
+   Line    471 : Col  10 -  41  addr(0x00208092)
+   Line    475 : Col   5 -  74  addr(0x0020809A)
+   Line    477 : Col   5 -  41  addr(0x002080A8)
+   Line    479 : Col   7 -  15  addr(0x002080B2)
+   Line    473 : Col   3 -  39  addr(0x002080B2)
+   Line    483 : Col   3 -  39  addr(0x002080BC)
+   Line    485 : Col   5 -  36  addr(0x002080C4)
+   Line    486 : Col   5 -  51  addr(0x002080C6)
+   Line    488 : Col   1 -   1  addr(0x002080CC)
+
+Function "procTx" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\_hal_uart_isr.c
+
+   Line    501 : Col  10 -  41  addr(0x002080D0)
+   Line    502 : Col  10 -  41  addr(0x002080D4)
+   Line    506 : Col   5 -  43  addr(0x002080D8)
+   Line    508 : Col   7 -  15  addr(0x002080E4)
+   Line    504 : Col   3 -  96  addr(0x002080E4)
+   Line    512 : Col   3 -  34  addr(0x002080F8)
+   Line    513 : Col   1 -   1  addr(0x002080FA)
+
++------------------------------------------+
+
+Module "ZMain" coverage: 90.00%
+
+Function "jc_stack_initialization" coverage: 80.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Projects\zstack\ZMain\TI2538DB\ZMain.c
+
+   Line    197 : Col   1 -   1  addr(0x0020696C)
+
+Function "main" coverage: 92.31%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Projects\zstack\ZMain\TI2538DB\ZMain.c
+
+   Line    140 : Col   2 -  34  addr(0x00206886)
+   Line    141 : Col   2 -  45  addr(0x00206888)
+   Line    144 : Col   2 -  45  addr(0x0020688E)
+
+Function "buildZCLIncomingMSG" coverage: 100.00%
+
+Function "zclReadWriteCB" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Projects\zstack\ZMain\TI2538DB\ZMain.c
+
+   Line    249 : Col   6 -  24  addr(0x00206A82)
+   Line    250 : Col   2 -  13  addr(0x00206A86)
+   Line    251 : Col   3 -  28  addr(0x00206A96)
+   Line    253 : Col   3 -  30  addr(0x00206A9A)
+
++------------------------------------------+
+
+Module "mac_backoff_timer" coverage: 0.00%
+
+Function "macBackoffTimerCancelTrigger" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_backoff_timer.c
+
+   Line    364 : Col   1 -   1  addr(0x002048CA)
+
+Function "macBackoffTimerCapture" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_backoff_timer.c
+
+   Line    282 : Col   3 -  31  addr(0x00204858)
+   Line    282 : Col   3 -  32  addr(0x00204860)
+   Line    283 : Col   3 -  47  addr(0x00204860)
+   Line    284 : Col   3 -  30  addr(0x00204868)
+   Line    284 : Col   3 -  30  addr(0x0020486A)
+   Line    284 : Col   3 -  31  addr(0x0020486E)
+   Line    291 : Col   3 -  45  addr(0x0020486E)
+   Line    293 : Col   5 -  14  addr(0x00204876)
+   Line    297 : Col   3 -  25  addr(0x0020487A)
+
+Function "macBackoffTimerCompareIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_backoff_timer.c
+
+   Line    471 : Col   3 -  35  addr(0x002048CC)
+
+Function "macBackoffTimerCount" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_backoff_timer.c
+
+   Line    235 : Col   3 -  31  addr(0x00204830)
+   Line    235 : Col   3 -  32  addr(0x00204838)
+   Line    236 : Col   3 -  43  addr(0x00204838)
+   Line    237 : Col   3 -  30  addr(0x00204840)
+   Line    237 : Col   3 -  30  addr(0x00204842)
+   Line    237 : Col   3 -  31  addr(0x00204846)
+   Line    257 : Col   3 -  43  addr(0x00204846)
+   Line    259 : Col   5 -  14  addr(0x0020484E)
+   Line    263 : Col   3 -  23  addr(0x00204852)
+
+Function "macBackoffTimerPeriodIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_backoff_timer.c
+
+   Line    487 : Col   3 -  30  addr(0x002048D2)
+   Line    488 : Col   3 -  36  addr(0x002048D6)
+
+Function "macBackoffTimerSetRollover" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_backoff_timer.c
+
+   Line    188 : Col   3 -  57  addr(0x00204800)
+   Line    188 : Col   3 -  57  addr(0x00204808)
+   Line    188 : Col   3 -  58  addr(0x0020480C)
+   Line    190 : Col   3 -  31  addr(0x0020480C)
+   Line    190 : Col   3 -  32  addr(0x00204812)
+   Line    191 : Col   3 -  41  addr(0x00204812)
+   Line    192 : Col   3 -  48  addr(0x00204816)
+   Line    193 : Col   3 -  30  addr(0x00204820)
+   Line    193 : Col   3 -  30  addr(0x00204822)
+   Line    193 : Col   3 -  31  addr(0x00204824)
+   Line    194 : Col   1 -   1  addr(0x00204824)
+
+Function "macBackoffTimerSetTrigger" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_backoff_timer.c
+
+   Line    332 : Col   3 -  51  addr(0x00204880)
+   Line    332 : Col   3 -  51  addr(0x0020488A)
+   Line    332 : Col   3 -  52  addr(0x0020488E)
+   Line    334 : Col   3 -  31  addr(0x0020488E)
+   Line    334 : Col   3 -  32  addr(0x00204892)
+   Line    335 : Col   3 -  39  addr(0x00204892)
+   Line    336 : Col   3 -  48  addr(0x00204896)
+   Line    337 : Col   3 -  50  addr(0x0020489E)
+   Line    340 : Col   5 -  47  addr(0x002048A8)
+   Line    340 : Col   5 -  48  addr(0x002048B0)
+   Line    341 : Col   5 -  32  addr(0x002048B0)
+   Line    341 : Col   5 -  32  addr(0x002048B2)
+   Line    341 : Col   5 -  33  addr(0x002048B6)
+   Line    342 : Col   5 -  37  addr(0x002048B6)
+   Line    346 : Col   5 -  32  addr(0x002048BE)
+   Line    346 : Col   5 -  32  addr(0x002048C0)
+   Line    348 : Col   1 -   1  addr(0x002048C8)
+
+Function "macGetBackOffTimerRollover" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_backoff_timer.c
+
+   Line    503 : Col   3 -  30  addr(0x002048DE)
+
++------------------------------------------+
+
+Module "mac_csp_tx" coverage: 0.00%
+
+Function "macCspForceTxDoneIfPending" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    817 : Col   3 -  78  addr(0x00204ADE)
+   Line    819 : Col   5 -  40  addr(0x00204AE6)
+   Line    819 : Col   5 -  41  addr(0x00204AEE)
+   Line    820 : Col   5 -  47  addr(0x00204AEE)
+   Line    822 : Col   7 -  23  addr(0x00204AF4)
+   Line    824 : Col   5 -  24  addr(0x00204B00)
+   Line    826 : Col   1 -   1  addr(0x00204B02)
+
+Function "macCspTxCancelAckTimeoutCallback" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    934 : Col   3 -  38  addr(0x00204BEC)
+   Line    934 : Col   3 -  39  addr(0x00204BF6)
+   Line    935 : Col   3 -  30  addr(0x00204BF6)
+   Line    935 : Col   3 -  30  addr(0x00204BFC)
+   Line    935 : Col   3 -  31  addr(0x00204C00)
+   Line    936 : Col   1 -   1  addr(0x00204C00)
+
+Function "macCspTxGoCsma" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    514 : Col   3 -  39  addr(0x002049CA)
+   Line    520 : Col   3 -  31  addr(0x002049CE)
+   Line    527 : Col   3 -  37  addr(0x00204A0E)
+   Line    528 : Col   3 -  37  addr(0x00204A14)
+   Line    534 : Col   3 -  12  addr(0x00204A14)
+   Line    537 : Col   3 -  21  addr(0x00204A18)
+   Line    537 : Col   3 -  22  addr(0x00204A1C)
+   Line    538 : Col   1 -   1  addr(0x00204A1C)
+
+Function "macCspTxGoSlotted" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    621 : Col   3 -  37  addr(0x00204A4A)
+   Line    621 : Col   3 -  38  addr(0x00204A4A)
+   Line    622 : Col   3 -  36  addr(0x00204A4A)
+   Line    622 : Col   3 -  37  addr(0x00204A56)
+   Line    625 : Col   3 -  31  addr(0x00204A56)
+   Line    625 : Col   3 -  32  addr(0x00204A5E)
+   Line    628 : Col   3 -  37  addr(0x00204A5E)
+   Line    628 : Col   3 -  38  addr(0x00204A64)
+   Line    631 : Col   3 -   7  addr(0x00204A64)
+   Line    632 : Col   3 -  41  addr(0x00204A66)
+   Line    640 : Col   3 - 126  addr(0x00204A6A)
+   Line    650 : Col   3 -  34  addr(0x00204A74)
+   Line    653 : Col   3 -  21  addr(0x00204A78)
+   Line    661 : Col   3 -  24  addr(0x00204A7C)
+   Line    661 : Col   3 -  25  addr(0x00204A82)
+   Line    664 : Col   3 -  21  addr(0x00204A82)
+   Line    664 : Col   3 -  22  addr(0x00204A86)
+   Line    688 : Col   3 -  37  addr(0x00204A86)
+   Line    688 : Col   3 -  38  addr(0x00204A8A)
+   Line    691 : Col   3 -   7  addr(0x00204A8A)
+   Line    692 : Col   3 -  67  addr(0x00204A8C)
+   Line    694 : Col   5 -  32  addr(0x00204A9C)
+   Line    697 : Col   3 -  30  addr(0x00204A9C)
+   Line    697 : Col   3 -  30  addr(0x00204A9E)
+   Line    697 : Col   3 -  31  addr(0x00204AA6)
+   Line    698 : Col   1 -   1  addr(0x00204AA6)
+
+Function "macCspTxIntIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    955 : Col   3 -  37  addr(0x00204C02)
+   Line    955 : Col   3 -  38  addr(0x00204C0C)
+   Line    958 : Col   3 -  27  addr(0x00204C0C)
+
+Function "macCspTxPrepCsmaSlotted" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    436 : Col   3 -  24  addr(0x00204994)
+   Line    443 : Col   3 -  23  addr(0x00204998)
+   Line    446 : Col   3 -  42  addr(0x0020499E)
+   Line    449 : Col   3 -  26  addr(0x002049A2)
+   Line    452 : Col   3 -  41  addr(0x002049A6)
+   Line    453 : Col   3 -  23  addr(0x002049AA)
+   Line    456 : Col   3 -  26  addr(0x002049AE)
+   Line    459 : Col   3 -  41  addr(0x002049B0)
+   Line    460 : Col   3 -  23  addr(0x002049B2)
+   Line    463 : Col   3 -  23  addr(0x002049B4)
+   Line    472 : Col   3 -  40  addr(0x002049B4)
+   Line    487 : Col   3 -  22  addr(0x002049BE)
+   Line    492 : Col   3 -  23  addr(0x002049BE)
+   Line    493 : Col   1 -   1  addr(0x002049C6)
+
+Function "macCspTxPrepCsmaUnslotted" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    362 : Col   3 -  24  addr(0x0020496E)
+   Line    372 : Col   3 -  23  addr(0x00204972)
+   Line    373 : Col   3 -  25  addr(0x00204978)
+   Line    376 : Col   3 -  42  addr(0x0020497C)
+   Line    381 : Col   3 -  14  addr(0x00204980)
+   Line    382 : Col   3 -  14  addr(0x00204984)
+   Line    383 : Col   3 -  14  addr(0x00204986)
+   Line    384 : Col   3 -  14  addr(0x00204988)
+   Line    387 : Col   3 -  41  addr(0x0020498A)
+   Line    388 : Col   3 -  23  addr(0x0020498A)
+
+Function "macCspTxPrepSlotted" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    554 : Col   3 -  24  addr(0x00204A20)
+   Line    561 : Col   3 -  23  addr(0x00204A24)
+
+Function "macCspTxRequestAckTimeoutCallback" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    846 : Col   3 -  38  addr(0x00204B08)
+   Line    846 : Col   3 -  38  addr(0x00204B14)
+   Line    846 : Col   3 -  39  addr(0x00204B18)
+   Line    849 : Col   3 -  48  addr(0x00204B18)
+   Line    852 : Col   3 -  37  addr(0x00204B1E)
+   Line    855 : Col   3 -  49  addr(0x00204B22)
+   Line    855 : Col   3 -  49  addr(0x00204B26)
+   Line    855 : Col   3 -  50  addr(0x00204B2A)
+   Line    858 : Col   3 -  64  addr(0x00204B2A)
+   Line    861 : Col   3 -  50  addr(0x00204B30)
+   Line    864 : Col   3 -  62  addr(0x00204B36)
+   Line    867 : Col   3 -  14  addr(0x00204B3E)
+   Line    870 : Col   3 -  35  addr(0x00204B3E)
+   Line    871 : Col   3 -  19  addr(0x00204B46)
+   Line    872 : Col   3 -  42  addr(0x00204B48)
+   Line    875 : Col   3 -  30  addr(0x00204B90)
+   Line    875 : Col   3 -  30  addr(0x00204B94)
+   Line    875 : Col   3 -  31  addr(0x00204B98)
+   Line    876 : Col   3 -  36  addr(0x00204B98)
+   Line    876 : Col   3 -  36  addr(0x00204BA0)
+   Line    876 : Col   3 -  36  addr(0x00204BA8)
+   Line    876 : Col   3 -  36  addr(0x00204BAA)
+   Line    876 : Col   3 -  36  addr(0x00204BAE)
+   Line    876 : Col   3 -  37  addr(0x00204BAE)
+   Line    881 : Col   3 -  15  addr(0x00204BAE)
+   Line    882 : Col   3 -  17  addr(0x00204BB2)
+   Line    883 : Col   3 -  15  addr(0x00204BB6)
+   Line    889 : Col   3 -  37  addr(0x00204BBA)
+   Line    889 : Col   3 -  38  addr(0x00204BBA)
+   Line    890 : Col   3 -  21  addr(0x00204BBA)
+   Line    890 : Col   3 -  22  addr(0x00204BCA)
+   Line    900 : Col   3 -  52  addr(0x00204BCA)
+   Line    903 : Col   5 -  26  addr(0x00204BD2)
+   Line    916 : Col   7 -  13  addr(0x00204BD8)
+   Line    919 : Col   1 -   1  addr(0x00204BDE)
+
+Function "macCspTxStopIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    980 : Col   3 -  38  addr(0x00204C12)
+   Line    980 : Col   3 -  39  addr(0x00204C1C)
+   Line    982 : Col   3 -  32  addr(0x00204C1C)
+   Line    984 : Col   5 -  24  addr(0x00204C22)
+   Line    986 : Col   8 -  42  addr(0x00204C24)
+   Line    988 : Col   5 -  31  addr(0x00204C2A)
+   Line    992 : Col   5 -  49  addr(0x00204C32)
+   Line    992 : Col   5 -  49  addr(0x00204C38)
+   Line    992 : Col   5 -  50  addr(0x00204C3C)
+   Line    993 : Col   5 -  34  addr(0x00204C3C)
+
+Function "cspPrepForTxProgram" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    335 : Col   3 -  38  addr(0x00204916)
+   Line    335 : Col   3 -  38  addr(0x00204920)
+   Line    335 : Col   3 -  39  addr(0x00204924)
+   Line    338 : Col   3 -  29  addr(0x00204924)
+   Line    338 : Col   3 -  30  addr(0x00204928)
+   Line    341 : Col   3 -  32  addr(0x00204928)
+   Line    344 : Col   3 -  30  addr(0x00204928)
+   Line    344 : Col   3 -  30  addr(0x00204936)
+   Line    344 : Col   3 -  31  addr(0x0020493A)
+   Line    345 : Col   3 -  36  addr(0x0020493A)
+   Line    345 : Col   3 -  36  addr(0x00204942)
+   Line    345 : Col   3 -  36  addr(0x0020494A)
+   Line    345 : Col   3 -  36  addr(0x0020494C)
+   Line    345 : Col   3 -  36  addr(0x00204950)
+   Line    345 : Col   3 -  37  addr(0x00204950)
+   Line    346 : Col   3 -  35  addr(0x00204950)
+   Line    346 : Col   3 -  35  addr(0x00204958)
+   Line    346 : Col   3 -  35  addr(0x00204960)
+   Line    346 : Col   3 -  35  addr(0x00204962)
+   Line    346 : Col   3 -  35  addr(0x0020496A)
+   Line    346 : Col   3 -  36  addr(0x0020496A)
+   Line    347 : Col   1 -   1  addr(0x0020496A)
+
+Function "cspReadCountSymbols" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_csp_tx.c
+
+   Line    301 : Col   3 -  31  addr(0x002048F2)
+   Line    301 : Col   3 -  32  addr(0x002048F6)
+   Line    302 : Col   3 -  33  addr(0x002048F6)
+   Line    302 : Col   3 -  34  addr(0x00204904)
+   Line    303 : Col   3 -  19  addr(0x00204904)
+   Line    304 : Col   3 -  19  addr(0x00204906)
+   Line    305 : Col   3 -  30  addr(0x00204908)
+   Line    305 : Col   3 -  30  addr(0x0020490A)
+   Line    305 : Col   3 -  31  addr(0x0020490E)
+   Line    316 : Col   3 -  40  addr(0x0020490E)
+   Line    317 : Col   3 -  48  addr(0x0020490E)
+   Line    318 : Col   3 -  17  addr(0x0020490E)
+
++------------------------------------------+
+
+Module "mac_low_level" coverage: 0.00%
+
+Function "macLowLevelDiags" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_low_level.c
+
+   Line    245 : Col   1 -   1  addr(0x00206814)
+
++------------------------------------------+
+
+Module "mac_mcu" coverage: 0.00%
+
+Function "macMcuAccumulatedOverFlow" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line   1039 : Col   3 -  31  addr(0x00203C8A)
+   Line   1039 : Col   3 -  32  addr(0x00203C8E)
+   Line   1041 : Col   3 -  33  addr(0x00203C8E)
+   Line   1043 : Col   5 -  61  addr(0x00203C9A)
+   Line   1047 : Col   5 -  31  addr(0x00203CA6)
+   Line   1050 : Col   3 -  30  addr(0x00203CAA)
+   Line   1050 : Col   3 -  30  addr(0x00203CAC)
+   Line   1050 : Col   3 -  31  addr(0x00203CB4)
+   Line   1051 : Col   1 -   1  addr(0x00203CB4)
+
+Function "macMcuOverflowCapture" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    522 : Col   3 -  31  addr(0x00203AAA)
+   Line    522 : Col   3 -  32  addr(0x00203AAE)
+   Line    523 : Col   3 -  39  addr(0x00203AAE)
+
+Function "macMcuOverflowCount" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    461 : Col   3 -  31  addr(0x00203A7E)
+   Line    461 : Col   3 -  32  addr(0x00203A82)
+   Line    464 : Col   3 -  37  addr(0x00203A82)
+   Line    464 : Col   3 -  38  addr(0x00203A86)
+   Line    467 : Col   3 -   7  addr(0x00203A86)
+   Line    468 : Col   3 -  51  addr(0x00203A88)
+   Line    469 : Col   3 -  51  addr(0x00203A8E)
+   Line    470 : Col   3 -  51  addr(0x00203A94)
+   Line    471 : Col   3 -  45  addr(0x00203A94)
+
+Function "macMcuOverflowSetCompare" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    582 : Col   9 -  29  addr(0x00203AE0)
+   Line    584 : Col   3 -  30  addr(0x00203AE4)
+   Line    584 : Col   3 -  30  addr(0x00203AE8)
+   Line    584 : Col   3 -  31  addr(0x00203AEC)
+   Line    586 : Col   3 -  31  addr(0x00203AEC)
+   Line    586 : Col   3 -  32  addr(0x00203AF0)
+   Line    589 : Col   3 -  36  addr(0x00203AF0)
+   Line    591 : Col   5 -  25  addr(0x00203AF8)
+   Line    592 : Col   5 -  36  addr(0x00203AF8)
+   Line    595 : Col   3 -  36  addr(0x00203B02)
+   Line    595 : Col   3 -  37  addr(0x00203B06)
+   Line    598 : Col   3 -  43  addr(0x00203B06)
+   Line    599 : Col   3 -  43  addr(0x00203B06)
+   Line    600 : Col   3 -  43  addr(0x00203B06)
+   Line    606 : Col   3 -  33  addr(0x00203B06)
+   Line    609 : Col   3 -  23  addr(0x00203B10)
+   Line    611 : Col   5 -  35  addr(0x00203B12)
+   Line    614 : Col   3 -  30  addr(0x00203B1A)
+   Line    614 : Col   3 -  30  addr(0x00203B1C)
+   Line    614 : Col   3 -  31  addr(0x00203B1E)
+   Line    615 : Col   1 -   1  addr(0x00203B1E)
+
+Function "macMcuOverflowSetPeriod" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    632 : Col   9 -  29  addr(0x00203B22)
+   Line    634 : Col   3 -  30  addr(0x00203B26)
+   Line    634 : Col   3 -  30  addr(0x00203B2A)
+   Line    634 : Col   3 -  31  addr(0x00203B2E)
+   Line    636 : Col   3 -  31  addr(0x00203B2E)
+   Line    636 : Col   3 -  32  addr(0x00203B32)
+   Line    639 : Col   3 -  31  addr(0x00203B32)
+   Line    641 : Col   5 -  25  addr(0x00203B3A)
+   Line    642 : Col   5 -  31  addr(0x00203B3A)
+   Line    645 : Col   3 -  38  addr(0x00203B44)
+   Line    645 : Col   3 -  39  addr(0x00203B48)
+   Line    648 : Col   3 -  43  addr(0x00203B48)
+   Line    656 : Col   3 -  29  addr(0x00203B4C)
+   Line    659 : Col   3 -  23  addr(0x00203B54)
+   Line    661 : Col   5 -  30  addr(0x00203B56)
+   Line    664 : Col   3 -  30  addr(0x00203B5E)
+   Line    664 : Col   3 -  30  addr(0x00203B60)
+   Line    664 : Col   3 -  31  addr(0x00203B62)
+   Line    665 : Col   1 -   1  addr(0x00203B62)
+
+Function "macMcuRandomByte" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    337 : Col   3 -  55  addr(0x00203A24)
+   Line    340 : Col   3 -  15  addr(0x00203A34)
+
+Function "macMcuRandomWord" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    360 : Col   3 -  55  addr(0x00203A3A)
+   Line    363 : Col   3 -  29  addr(0x00203A4A)
+   Line    364 : Col   3 -  23  addr(0x00203A4C)
+   Line    367 : Col   3 -  22  addr(0x00203A4E)
+
+Function "macMcuRfErrIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    928 : Col   3 -  25  addr(0x00203C3A)
+   Line    931 : Col   3 -  30  addr(0x00203C3E)
+   Line    933 : Col   3 -  52  addr(0x00203C44)
+   Line    936 : Col   5 -  30  addr(0x00203C4E)
+   Line    938 : Col   8 -  53  addr(0x00203C56)
+   Line    941 : Col   5 -  26  addr(0x00203C5E)
+   Line    946 : Col   5 -  23  addr(0x00203C64)
+   Line    949 : Col   5 -  14  addr(0x00203C68)
+   Line    951 : Col   8 -  55  addr(0x00203C70)
+   Line    953 : Col   5 -  28  addr(0x00203C78)
+   Line    954 : Col   5 -  27  addr(0x00203C7E)
+   Line    958 : Col   1 -   1  addr(0x00203C86)
+
+Function "macMcuRfIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    865 : Col   3 -  24  addr(0x00203BD4)
+   Line    870 : Col   3 -  30  addr(0x00203BD6)
+   Line    872 : Col   3 -  50  addr(0x00203BE0)
+   Line    880 : Col   5 -  30  addr(0x00203BE8)
+   Line    881 : Col   5 -  21  addr(0x00203BEE)
+   Line    883 : Col   8 -  53  addr(0x00203BF4)
+   Line    886 : Col   5 -  28  addr(0x00203BFC)
+   Line    887 : Col   5 -  22  addr(0x00203C02)
+   Line    889 : Col   8 -  54  addr(0x00203C08)
+   Line    892 : Col   5 -  29  addr(0x00203C10)
+   Line    893 : Col   5 -  29  addr(0x00203C18)
+   Line    896 : Col   3 -  24  addr(0x00203C1C)
+   Line    899 : Col   3 -  45  addr(0x00203C1E)
+   Line    904 : Col   7 -  26  addr(0x00203C26)
+   Line    905 : Col   7 -  27  addr(0x00203C2A)
+   Line    906 : Col  13 -  31  addr(0x00203C30)
+   Line    910 : Col   1 -   1  addr(0x00203C36)
+
+Function "macMcuTimer2Isr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    714 : Col   3 -  18  addr(0x00203B8E)
+   Line    715 : Col   3 -  18  addr(0x00203B92)
+   Line    721 : Col   3 -  47  addr(0x00203B94)
+   Line    725 : Col   5 -  32  addr(0x00203B9A)
+   Line    728 : Col   5 -  35  addr(0x00203B9E)
+   Line    735 : Col   3 -  42  addr(0x00203BA4)
+   Line    739 : Col   5 -  31  addr(0x00203BA8)
+   Line    742 : Col   5 -  30  addr(0x00203BAC)
+   Line    748 : Col   8 -  43  addr(0x00203BB2)
+   Line    751 : Col   5 -  26  addr(0x00203BB6)
+   Line    754 : Col   5 -  26  addr(0x00203BCA)
+   Line    758 : Col   1 -   1  addr(0x00203BD0)
+
+Function "macMcuTimerCapture" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mcu.c
+
+   Line    433 : Col   3 -  31  addr(0x00203A58)
+   Line    433 : Col   3 -  32  addr(0x00203A5C)
+   Line    434 : Col   3 -  35  addr(0x00203A5C)
+
++------------------------------------------+
+
+Module "mac_mem" coverage: 0.00%
+
+Function "macMemReadRam" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mem.c
+
+   Line    115 : Col   5 -  10  addr(0x002063E2)
+   Line    116 : Col   5 -  43  addr(0x002063E2)
+   Line    117 : Col   5 -  11  addr(0x002063EC)
+   Line    118 : Col   5 -  12  addr(0x002063EC)
+   Line    113 : Col   3 -  13  addr(0x002063EC)
+   Line    120 : Col   1 -   1  addr(0x002063F2)
+
+Function "macMemReadRxFifo" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mem.c
+
+   Line    161 : Col   3 -  22  addr(0x00206418)
+   Line    161 : Col   3 -  22  addr(0x0020641A)
+   Line    165 : Col   5 -  17  addr(0x0020641E)
+   Line    166 : Col   5 -  12  addr(0x00206426)
+   Line    167 : Col   5 -  10  addr(0x00206426)
+   Line    169 : Col   9 -  14  addr(0x00206428)
+   Line    170 : Col   1 -   1  addr(0x0020642E)
+
+Function "macMemWriteRam" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mem.c
+
+   Line     91 : Col   5 -  10  addr(0x002063CE)
+   Line     92 : Col   5 -  36  addr(0x002063CE)
+   Line     93 : Col   5 -  11  addr(0x002063D8)
+   Line     94 : Col   5 -  12  addr(0x002063D8)
+   Line     89 : Col   3 -  13  addr(0x002063D8)
+   Line     96 : Col   1 -   1  addr(0x002063DE)
+
+Function "macMemWriteTxFifo" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\single_chip\mac_mem.c
+
+   Line    136 : Col   3 -  22  addr(0x002063FA)
+   Line    136 : Col   3 -  22  addr(0x002063FC)
+   Line    140 : Col   5 -  27  addr(0x00206400)
+   Line    141 : Col   5 -  12  addr(0x00206400)
+   Line    142 : Col   5 -  10  addr(0x00206400)
+   Line    144 : Col   9 -  14  addr(0x00206408)
+   Line    145 : Col   1 -   1  addr(0x00206410)
+
++------------------------------------------+
+
+Module "mac_radio" coverage: 0.00%
+
+Function "macRadioComputeLQI" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_radio.c
+
+   Line    590 : Col   3 -  34  addr(0x0020656E)
+
+Function "macRadioRandomByte" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_radio.c
+
+   Line    149 : Col   3 -  34  addr(0x00206438)
+
+Function "macRadioSetChannel" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_radio.c
+
+   Line    367 : Col   3 -  48  addr(0x002064B2)
+   Line    367 : Col   3 -  48  addr(0x002064B8)
+   Line    367 : Col   3 -  49  addr(0x002064BC)
+   Line    370 : Col   3 -  31  addr(0x002064BC)
+   Line    370 : Col   3 -  32  addr(0x002064C0)
+   Line    373 : Col   3 -  23  addr(0x002064C0)
+   Line    379 : Col   3 -  19  addr(0x002064C2)
+   Line    381 : Col   5 -  28  addr(0x002064D0)
+   Line    384 : Col   3 -  30  addr(0x002064D4)
+   Line    384 : Col   3 -  30  addr(0x002064D6)
+   Line    384 : Col   3 -  31  addr(0x002064D8)
+   Line    385 : Col   1 -   1  addr(0x002064D8)
+
+Function "macRadioSetTxPower" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_radio.c
+
+   Line    249 : Col  21 -  51  addr(0x0020643E)
+   Line    253 : Col   3 -  73  addr(0x0020643E)
+   Line    256 : Col   5 -  59  addr(0x0020644E)
+   Line    258 : Col   8 -  77  addr(0x00206450)
+   Line    261 : Col   5 -  58  addr(0x0020645A)
+   Line    271 : Col   3 -  31  addr(0x0020645A)
+   Line    271 : Col   3 -  32  addr(0x00206460)
+   Line      279 -    280 : Col  11 -  41  addr(0x00206460)
+   Line    281 : Col   5 -  31  addr(0x00206460)
+   Line    283 : Col   3 -  30  addr(0x00206470)
+   Line    283 : Col   3 -  30  addr(0x00206472)
+   Line    283 : Col   3 -  31  addr(0x00206476)
+   Line    286 : Col   3 -  26  addr(0x00206476)
+   Line    287 : Col   3 -  17  addr(0x0020647A)
+
+Function "macRadioUpdateChannel" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_radio.c
+
+   Line    402 : Col   3 -  26  addr(0x002064E4)
+   Line    402 : Col   3 -  26  addr(0x002064EA)
+   Line    402 : Col   3 -  27  addr(0x002064EE)
+   Line    405 : Col   3 -  31  addr(0x002064EE)
+   Line    405 : Col   3 -  32  addr(0x002064F2)
+   Line    406 : Col   3 -  34  addr(0x002064F2)
+   Line    408 : Col   5 -  31  addr(0x00206502)
+   Line    409 : Col   5 -  32  addr(0x00206504)
+   Line    409 : Col   5 -  32  addr(0x00206506)
+   Line    409 : Col   5 -  33  addr(0x0020650A)
+   Line    412 : Col   5 -  15  addr(0x0020650A)
+   Line    413 : Col   5 -  40  addr(0x0020650E)
+   Line    413 : Col   5 -  41  addr(0x0020651A)
+   Line    418 : Col   5 -  23  addr(0x0020651A)
+   Line    420 : Col   5 -  21  addr(0x0020651E)
+   Line    424 : Col   5 -  32  addr(0x00206526)
+   Line    424 : Col   5 -  32  addr(0x00206528)
+   Line    426 : Col   1 -   1  addr(0x00206530)
+
+Function "macRadioUpdateTxPower" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_radio.c
+
+   Line    329 : Col   3 -  31  addr(0x00206480)
+   Line    329 : Col   3 -  32  addr(0x00206484)
+   Line    330 : Col   3 -  34  addr(0x00206484)
+   Line    338 : Col   5 -  64  addr(0x00206494)
+   Line    344 : Col   7 -  33  addr(0x002064A2)
+   Line    345 : Col   7 -  43  addr(0x002064A2)
+   Line    345 : Col   7 -  44  addr(0x002064A8)
+   Line    348 : Col   3 -  30  addr(0x002064A8)
+   Line    348 : Col   3 -  30  addr(0x002064AA)
+   Line    348 : Col   3 -  31  addr(0x002064AC)
+   Line    349 : Col   1 -   1  addr(0x002064AC)
+
+Function "radioComputeED" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_radio.c
+
+   Line    548 : Col   3 -  36  addr(0x0020654C)
+   Line    550 : Col   5 -  34  addr(0x00206556)
+   Line    552 : Col   8 -  41  addr(0x00206558)
+   Line    554 : Col   5 -  34  addr(0x0020655E)
+   Line    564 : Col   3 - 105  addr(0x0020655E)
+   Line    566 : Col   3 -  13  addr(0x0020655E)
+
++------------------------------------------+
+
+Module "mac_rx" coverage: 0.00%
+
+Function "macRxAckTxDoneCallback" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1225 : Col   3 -  27  addr(0x002051DA)
+   Line   1227 : Col   3 -  36  addr(0x002051DC)
+   Line   1236 : Col   3 -  19  addr(0x002051E6)
+   Line   1238 : Col   5 -  22  addr(0x002051EA)
+   Line   1240 : Col   1 -   1  addr(0x002051F0)
+
+Function "macRxFifoOverflowIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1348 : Col   3 -  24  addr(0x0020526A)
+   Line   1349 : Col   3 -  21  addr(0x00205272)
+
+Function "macRxHaltCleanup" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line    312 : Col   3 -  18  addr(0x00204C7E)
+   Line    313 : Col   3 -  23  addr(0x00204C82)
+   Line    315 : Col   5 -  29  addr(0x00204C8A)
+   Line    316 : Col   5 -  20  addr(0x00204C8E)
+   Line    318 : Col   1 -   1  addr(0x00204C92)
+
+Function "macRxThresholdIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line    379 : Col   3 -  18  addr(0x00204CFE)
+   Line    381 : Col   5 -  11  addr(0x00204D06)
+   Line    391 : Col   3 -  22  addr(0x00204D06)
+   Line    392 : Col   3 -  20  addr(0x00204D0A)
+   Line    393 : Col   3 -  22  addr(0x00204D0E)
+   Line    396 : Col   3 -  18  addr(0x00204D10)
+   Line    398 : Col   5 -  29  addr(0x00204D16)
+   Line    399 : Col   5 -  20  addr(0x00204D1A)
+   Line    401 : Col   1 -   1  addr(0x00204D1E)
+
+Function "rxAddrIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line    851 : Col   3 -  28  addr(0x0020500A)
+   Line    851 : Col   3 -  28  addr(0x00205012)
+   Line    851 : Col   3 -  29  addr(0x00205016)
+   Line    854 : Col   3 -  41  addr(0x00205016)
+   Line    857 : Col   3 -  10  addr(0x0020501A)
+   Line    860 : Col   3 -  46  addr(0x0020501A)
+   Line    861 : Col   3 -  37  addr(0x00205022)
+   Line    863 : Col   5 -  75  addr(0x00205024)
+   Line    864 : Col   5 -  30  addr(0x00205032)
+   Line    865 : Col   5 -  38  addr(0x00205032)
+   Line    867 : Col   7 -  55  addr(0x0020503A)
+   Line    868 : Col   7 -  34  addr(0x00205046)
+   Line    872 : Col   7 -  68  addr(0x0020504C)
+   Line    873 : Col   7 -  36  addr(0x00205056)
+   Line    878 : Col   3 -  45  addr(0x00205058)
+   Line    879 : Col   3 -  37  addr(0x0020505C)
+   Line    881 : Col   5 -  58  addr(0x0020505E)
+   Line    883 : Col   7 -  54  addr(0x00205066)
+   Line    884 : Col   7 -  32  addr(0x00205070)
+   Line    886 : Col   5 -  38  addr(0x00205072)
+   Line    888 : Col   7 -  55  addr(0x00205076)
+   Line    892 : Col   7 -  68  addr(0x00205080)
+   Line    964 : Col   5 -  51  addr(0x0020508A)
+   Line    969 : Col   5 -  33  addr(0x00205090)
+   Line    970 : Col   5 -  20  addr(0x00205096)
+   Line    972 : Col   1 -   1  addr(0x0020509A)
+
+Function "rxDiscardFrame" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1283 : Col   3 -  41  addr(0x00205206)
+   Line   1283 : Col   3 -  41  addr(0x00205210)
+   Line   1283 : Col   3 -  42  addr(0x00205214)
+   Line   1285 : Col   3 -  23  addr(0x00205214)
+   Line   1287 : Col   5 -  13  addr(0x00205218)
+   Line   1291 : Col   5 -  71  addr(0x0020521E)
+   Line   1292 : Col   5 -  41  addr(0x00205226)
+   Line   1292 : Col   5 -  42  addr(0x0020522A)
+   Line   1293 : Col   5 -  33  addr(0x0020522A)
+   Line   1295 : Col   1 -   1  addr(0x00205234)
+
+Function "rxDiscardIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1312 : Col   3 -  41  addr(0x0020523A)
+   Line   1313 : Col   3 -  27  addr(0x00205240)
+   Line   1316 : Col   3 -  23  addr(0x00205248)
+   Line   1318 : Col   5 -  59  addr(0x0020524E)
+   Line   1320 : Col   7 -  30  addr(0x00205252)
+   Line   1321 : Col   7 -  43  addr(0x00205254)
+   Line   1321 : Col   7 -  44  addr(0x0020525A)
+   Line   1327 : Col   5 -  54  addr(0x0020525C)
+   Line   1327 : Col   5 -  55  addr(0x00205260)
+   Line   1328 : Col   5 -  31  addr(0x00205260)
+   Line   1329 : Col   5 -  13  addr(0x00205264)
+   Line   1331 : Col   1 -   1  addr(0x00205268)
+
+Function "rxDone" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1196 : Col   3 -  41  addr(0x002051B0)
+   Line   1198 : Col   5 -  29  addr(0x002051BE)
+   Line   1198 : Col   5 -  29  addr(0x002051C4)
+   Line   1198 : Col   5 -  30  addr(0x002051C6)
+   Line   1202 : Col   3 -  42  addr(0x002051C6)
+   Line   1205 : Col   3 -  28  addr(0x002051CC)
+   Line   1207 : Col   5 -  22  addr(0x002051D2)
+   Line   1209 : Col   1 -   1  addr(0x002051D6)
+
+Function "rxFcsIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1082 : Col   9 -  27  addr(0x002050F4)
+   Line   1085 : Col   3 -  51  addr(0x002050F4)
+   Line   1096 : Col   3 -  40  addr(0x002050FE)
+   Line   1103 : Col   3 -  72  addr(0x00205106)
+   Line   1121 : Col   5 -  37  addr(0x00205112)
+   Line   1122 : Col   5 -  22  addr(0x00205116)
+   Line   1125 : Col   5 -  66  addr(0x0020511A)
+   Line   1127 : Col   5 -  52  addr(0x00205120)
+   Line   1130 : Col   5 -  68  addr(0x00205126)
+   Line   1131 : Col   5 -  31  addr(0x00205136)
+   Line   1132 : Col   5 -  35  addr(0x0020513C)
+   Line   1135 : Col   5 -  45  addr(0x00205142)
+   Line   1136 : Col   5 -  59  addr(0x00205144)
+   Line   1138 : Col   5 - 102  addr(0x00205158)
+   Line   1141 : Col   7 -  24  addr(0x00205164)
+   Line   1141 : Col   7 -  25  addr(0x0020516C)
+   Line   1145 : Col   5 -  62  addr(0x0020516C)
+   Line   1148 : Col   7 -  47  addr(0x00205178)
+   Line   1150 : Col   5 -  57  addr(0x0020517A)
+   Line   1153 : Col   5 -  34  addr(0x00205184)
+   Line   1154 : Col   5 -  18  addr(0x0020518A)
+   Line   1168 : Col   5 -  43  addr(0x0020518C)
+   Line   1168 : Col   5 -  44  addr(0x00205194)
+   Line   1169 : Col   5 -  29  addr(0x00205194)
+   Line   1172 : Col   5 -  32  addr(0x00205196)
+   Line   1173 : Col   5 -  18  addr(0x0020519E)
+   Line   1177 : Col   3 -  52  addr(0x002051A2)
+   Line   1177 : Col   3 -  53  addr(0x002051A6)
+   Line   1178 : Col   3 -  29  addr(0x002051A6)
+   Line   1179 : Col   3 -  11  addr(0x002051AA)
+
+Function "rxHaltCleanupFinalStep" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line    334 : Col   3 -  41  addr(0x00204C96)
+   Line    334 : Col   3 -  42  addr(0x00204C9A)
+   Line    337 : Col   3 -  52  addr(0x00204C9A)
+   Line    337 : Col   3 -  53  addr(0x00204C9A)
+   Line    340 : Col   3 -  27  addr(0x00204C9A)
+   Line    340 : Col   3 -  27  addr(0x00204CAE)
+   Line    340 : Col   3 -  28  addr(0x00204CB0)
+   Line    343 : Col   3 -  47  addr(0x00204CB0)
+   Line    343 : Col   3 -  47  addr(0x00204CB8)
+   Line    343 : Col   3 -  47  addr(0x00204CC0)
+   Line    343 : Col   3 -  47  addr(0x00204CC2)
+   Line    343 : Col   3 -  47  addr(0x00204CC6)
+   Line    343 : Col   3 -  48  addr(0x00204CC6)
+   Line    346 : Col   3 -  21  addr(0x00204CC6)
+   Line    348 : Col   5 -  32  addr(0x00204CCE)
+   Line    352 : Col   3 -  29  addr(0x00204CD6)
+   Line    355 : Col   3 -  42  addr(0x00204CDA)
+   Line    357 : Col   5 -  44  addr(0x00204CE4)
+   Line    358 : Col   5 -  29  addr(0x00204CE8)
+   Line    360 : Col   5 -  22  addr(0x00204CEA)
+   Line    362 : Col   1 -   1  addr(0x00204CF0)
+
+Function "rxPayloadIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1060 : Col   3 -  51  addr(0x002050CE)
+   Line   1061 : Col   3 -  29  addr(0x002050DA)
+   Line   1063 : Col   3 -  28  addr(0x002050E4)
+   Line   1065 : Col   3 -  18  addr(0x002050EA)
+
+Function "rxPostRxUpdates" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1261 : Col   3 -  20  addr(0x002051F4)
+   Line   1264 : Col   3 -  26  addr(0x002051F8)
+   Line   1267 : Col   3 -  26  addr(0x002051FC)
+
+Function "rxPrepPayload" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line   1035 : Col   3 -  24  addr(0x002050A6)
+   Line   1037 : Col   5 -  49  addr(0x002050AE)
+   Line   1037 : Col   5 -  50  addr(0x002050B2)
+   Line   1038 : Col   5 -  29  addr(0x002050B2)
+   Line   1042 : Col   5 -  72  addr(0x002050BA)
+   Line   1043 : Col   5 -  41  addr(0x002050C2)
+   Line   1043 : Col   5 -  42  addr(0x002050C8)
+   Line   1045 : Col   1 -   1  addr(0x002050C8)
+
+Function "rxStartIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx.c
+
+   Line    422 : Col  10 -  20  addr(0x00204D28)
+   Line    424 : Col   3 -  26  addr(0x00204D28)
+   Line    424 : Col   3 -  26  addr(0x00204D32)
+   Line    424 : Col   3 -  27  addr(0x00204D36)
+   Line    427 : Col   3 -  38  addr(0x00204D36)
+   Line    446 : Col   3 -  51  addr(0x00204D38)
+   Line    449 : Col   5 -  44  addr(0x00204D52)
+   Line    455 : Col   5 -  22  addr(0x00204D54)
+   Line    458 : Col   5 -  11  addr(0x00204D58)
+   Line    466 : Col   3 -  39  addr(0x00204D5A)
+   Line    474 : Col   3 -  41  addr(0x00204D5E)
+   Line    474 : Col   3 -  42  addr(0x00204D60)
+   Line    475 : Col   3 -  27  addr(0x00204D60)
+   Line    481 : Col   3 -  25  addr(0x00204D60)
+   Line    496 : Col   3 -  93  addr(0x00204D60)
+   Line    499 : Col   3 -  94  addr(0x00204D78)
+   Line      506 -    507 : Col   3 -  61  addr(0x00204D82)
+   Line    524 : Col   3 - 103  addr(0x00204D92)
+   Line    534 : Col   5 -  54  addr(0x00204DA4)
+   Line    540 : Col   5 -  33  addr(0x00204DA8)
+   Line    540 : Col   5 -  34  addr(0x00204DB0)
+   Line    543 : Col   5 -  52  addr(0x00204DB0)
+   Line    545 : Col   7 -  36  addr(0x00204DBE)
+   Line    545 : Col   7 -  36  addr(0x00204DC6)
+   Line    545 : Col   7 -  37  addr(0x00204DCA)
+   Line    552 : Col   9 -  71  addr(0x00204DCA)
+   Line    554 : Col   9 -  57  addr(0x00204DD2)
+   Line    556 : Col   9 -  81  addr(0x00204DDA)
+   Line    557 : Col   9 -  48  addr(0x00204DE6)
+   Line    558 : Col   9 -  43  addr(0x00204DEC)
+   Line    565 : Col   7 -  34  addr(0x00204DF0)
+   Line    565 : Col   7 -  34  addr(0x00204DF2)
+   Line    565 : Col   7 -  35  addr(0x00204DF6)
+   Line    572 : Col   7 -  41  addr(0x00204DF6)
+   Line    575 : Col   9 -  90  addr(0x00204DFE)
+   Line    579 : Col   9 -  38  addr(0x00204E0C)
+   Line    584 : Col   7 -  34  addr(0x00204E12)
+   Line    584 : Col   7 -  34  addr(0x00204E14)
+   Line    588 : Col   5 -  13  addr(0x00204E18)
+   Line    591 : Col   8 -  55  addr(0x00204E1A)
+   Line    593 : Col   5 -  34  addr(0x00204E20)
+   Line    603 : Col   3 -  56  addr(0x00204E24)
+   Line      605 -    614 : Col   5 -  67  addr(0x00204E2E)
+   Line    627 : Col   3 -  46  addr(0x00204E4A)
+   Line    628 : Col   3 -  45  addr(0x00204E50)
+   Line    635 : Col   3 -  30  addr(0x00204E56)
+   Line    637 : Col   5 -  87  addr(0x00204E5E)
+   Line    639 : Col   7 -  31  addr(0x00204E6A)
+   Line    639 : Col   7 -  31  addr(0x00204E70)
+   Line    639 : Col   7 -  32  addr(0x00204E74)
+   Line    640 : Col   7 -  15  addr(0x00204E74)
+   Line    641 : Col   7 -  13  addr(0x00204E78)
+   Line    651 : Col   3 -  66  addr(0x00204E7A)
+   Line    652 : Col   3 -  67  addr(0x00204E88)
+   Line    654 : Col   5 -  36  addr(0x00204E98)
+   Line    661 : Col   3 -  50  addr(0x00204E98)
+   Line    664 : Col   5 -  21  addr(0x00204EA0)
+   Line    665 : Col   5 -  11  addr(0x00204EA4)
+   Line    671 : Col   3 -  59  addr(0x00204EA6)
+   Line    676 : Col   3 -  33  addr(0x00204EAC)
+   Line    679 : Col   5 -  25  addr(0x00204EB2)
+   Line    682 : Col   3 -  74  addr(0x00204EB2)
+   Line    683 : Col   3 -  21  addr(0x00204EC0)
+   Line    686 : Col   5 -  29  addr(0x00204EC2)
+   Line    696 : Col   3 -  21  addr(0x00204ECA)
+   Line    697 : Col   3 -  25  addr(0x00204ECA)
+   Line    699 : Col   5 -  54  addr(0x00204ED2)
+   Line    705 : Col   3 -  27  addr(0x00204EDA)
+   Line    713 : Col   5 -  33  addr(0x00204EDE)
+   Line    713 : Col   5 -  34  addr(0x00204EE6)
+   Line    716 : Col   5 -  61  addr(0x00204EE6)
+   Line    718 : Col   7 -  41  addr(0x00204EF8)
+   Line    725 : Col   9 -  34  addr(0x00204F00)
+   Line    728 : Col  11 -  75  addr(0x00204F0A)
+   Line    750 : Col   7 -  24  addr(0x00204F12)
+   Line    750 : Col   7 -  25  addr(0x00204F1A)
+   Line    755 : Col   5 -  44  addr(0x00204F1A)
+   Line    755 : Col   5 -  44  addr(0x00204F22)
+   Line    755 : Col   5 -  44  addr(0x00204F22)
+   Line    755 : Col   5 -  44  addr(0x00204F28)
+   Line    755 : Col   5 -  44  addr(0x00204F32)
+   Line    755 : Col   5 -  44  addr(0x00204F34)
+   Line    755 : Col   5 -  44  addr(0x00204F38)
+   Line    755 : Col   5 -  44  addr(0x00204F38)
+   Line    755 : Col   5 -  44  addr(0x00204F38)
+   Line    755 : Col   5 -  44  addr(0x00204F40)
+   Line    755 : Col   5 -  45  addr(0x00204F40)
+   Line    756 : Col   5 -  32  addr(0x00204F40)
+   Line    756 : Col   5 -  32  addr(0x00204F46)
+   Line    766 : Col   3 -  62  addr(0x00204F4A)
+   Line    767 : Col   3 -  53  addr(0x00204F54)
+   Line    769 : Col   3 -  33  addr(0x00204F60)
+   Line    772 : Col   5 -  64  addr(0x00204F66)
+   Line    773 : Col   5 -  59  addr(0x00204F6E)
+   Line    774 : Col   5 -  37  addr(0x00204F7C)
+   Line    778 : Col   3 -  46  addr(0x00204F88)
+   Line    779 : Col   3 -  46  addr(0x00204F8E)
+   Line    780 : Col   3 -  62  addr(0x00204F96)
+   Line    781 : Col   3 -  60  addr(0x00204F9E)
+   Line    795 : Col   5 -  60  addr(0x00204FA6)
+   Line    798 : Col   3 -  60  addr(0x00204FAE)
+   Line    799 : Col   3 -  81  addr(0x00204FB6)
+   Line    806 : Col   3 -  19  addr(0x00204FCC)
+   Line    809 : Col   5 -  33  addr(0x00204FCE)
+   Line    810 : Col   5 -  20  addr(0x00204FD4)
+   Line    736 : Col  11 -  43  addr(0x00204FDA)
+   Line    738 : Col  13 -  53  addr(0x00204FE2)
+   Line    746 : Col   7 -  29  addr(0x00204FE2)
+   Line    815 : Col   5 -  24  addr(0x00204FEE)
+   Line    816 : Col   5 -  35  addr(0x00204FF0)
+   Line    823 : Col   7 -  43  addr(0x00204FFA)
+   Line    823 : Col   7 -  44  addr(0x00204FFC)
+   Line    825 : Col   5 -  30  addr(0x00204FFC)
+   Line    827 : Col   1 -   1  addr(0x00205002)
+
++------------------------------------------+
+
+Module "mac_rx_onoff" coverage: 0.00%
+
+Function "macRxHardDisable" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx_onoff.c
+
+   Line    178 : Col   3 -  31  addr(0x002052B2)
+   Line    178 : Col   3 -  32  addr(0x002052B6)
+   Line    180 : Col   3 -  23  addr(0x002052B6)
+   Line    181 : Col   3 -  18  addr(0x002052C0)
+   Line    184 : Col   3 -  22  addr(0x002052C2)
+   Line    184 : Col   3 -  23  addr(0x002052C8)
+   Line    185 : Col   3 -  27  addr(0x002052C8)
+   Line    185 : Col   3 -  27  addr(0x002052CE)
+   Line    185 : Col   3 -  28  addr(0x002052D0)
+   Line    188 : Col   3 -  30  addr(0x002052D0)
+   Line    188 : Col   3 -  30  addr(0x002052D2)
+   Line    188 : Col   3 -  31  addr(0x002052D6)
+   Line    191 : Col   3 -  21  addr(0x002052D6)
+
+Function "macRxOff" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx_onoff.c
+
+   Line    282 : Col   3 -  31  addr(0x0020535E)
+   Line    282 : Col   3 -  32  addr(0x00205362)
+   Line    283 : Col   3 -  18  addr(0x00205362)
+   Line    285 : Col   5 -  20  addr(0x0020536E)
+   Line    286 : Col   5 -  24  addr(0x00205370)
+   Line    286 : Col   5 -  25  addr(0x00205378)
+   Line    290 : Col   5 -  29  addr(0x00205378)
+   Line    290 : Col   5 -  29  addr(0x0020537C)
+   Line    290 : Col   5 -  30  addr(0x0020537E)
+   Line    293 : Col   5 -  49  addr(0x0020537E)
+   Line    293 : Col   5 -  49  addr(0x00205386)
+   Line    293 : Col   5 -  49  addr(0x00205386)
+   Line    293 : Col   5 -  49  addr(0x0020538C)
+   Line    293 : Col   5 -  49  addr(0x00205394)
+   Line    293 : Col   5 -  49  addr(0x00205396)
+   Line    296 : Col   3 -  30  addr(0x0020539A)
+   Line    296 : Col   3 -  30  addr(0x0020539C)
+   Line    296 : Col   3 -  31  addr(0x002053A4)
+   Line    297 : Col   1 -   1  addr(0x002053A4)
+
+Function "macRxOffRequest" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx_onoff.c
+
+   Line    231 : Col   3 -  31  addr(0x00205304)
+   Line    231 : Col   3 -  32  addr(0x00205308)
+   Line    232 : Col   3 -  24  addr(0x00205308)
+   Line    234 : Col   5 -  73  addr(0x00205314)
+   Line    236 : Col   7 -  17  addr(0x0020532A)
+   Line    239 : Col   3 -  30  addr(0x0020532E)
+   Line    239 : Col   3 -  30  addr(0x00205330)
+   Line    239 : Col   3 -  31  addr(0x00205332)
+   Line    240 : Col   1 -   1  addr(0x00205332)
+
+Function "macRxOn" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx_onoff.c
+
+   Line    257 : Col   3 -  31  addr(0x00205336)
+   Line    257 : Col   3 -  32  addr(0x0020533A)
+   Line    258 : Col   3 -  19  addr(0x0020533A)
+   Line    260 : Col   5 -  20  addr(0x00205346)
+   Line    261 : Col   5 -  21  addr(0x0020534A)
+   Line    261 : Col   5 -  22  addr(0x00205350)
+   Line    264 : Col   3 -  30  addr(0x00205350)
+   Line    264 : Col   3 -  30  addr(0x00205352)
+   Line    264 : Col   3 -  31  addr(0x0020535A)
+   Line    265 : Col   1 -   1  addr(0x0020535A)
+
+Function "macRxOnRequest" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_rx_onoff.c
+
+   Line    208 : Col   3 -  31  addr(0x002052E0)
+   Line    208 : Col   3 -  32  addr(0x002052E4)
+   Line    209 : Col   3 -  23  addr(0x002052E4)
+   Line    211 : Col   5 -  14  addr(0x002052F0)
+   Line    213 : Col   3 -  30  addr(0x002052F4)
+   Line    213 : Col   3 -  30  addr(0x002052F6)
+   Line    213 : Col   3 -  31  addr(0x002052F8)
+   Line    214 : Col   1 -   1  addr(0x002052F8)
+
++------------------------------------------+
+
+Module "mac_tx" coverage: 0.00%
+
+Function "macTxAckNotReceivedCallback" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    668 : Col   3 -  31  addr(0x00206320)
+   Line    668 : Col   3 -  32  addr(0x00206326)
+   Line    669 : Col   3 -  50  addr(0x00206326)
+   Line    671 : Col   5 -  41  addr(0x00206332)
+   Line    672 : Col   5 -  47  addr(0x00206336)
+   Line    673 : Col   5 -  32  addr(0x0020633A)
+   Line    673 : Col   5 -  32  addr(0x0020633C)
+   Line    673 : Col   5 -  33  addr(0x00206340)
+   Line    676 : Col   5 -  27  addr(0x00206340)
+   Line    680 : Col   5 -  32  addr(0x00206348)
+   Line    680 : Col   5 -  32  addr(0x0020634A)
+   Line    682 : Col   1 -   1  addr(0x0020634C)
+
+Function "macTxAckReceivedCallback" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    613 : Col   3 -  31  addr(0x002062DA)
+   Line    613 : Col   3 -  32  addr(0x002062DE)
+   Line    614 : Col   3 -  50  addr(0x002062DE)
+   Line    616 : Col   5 -  41  addr(0x002062EC)
+   Line    617 : Col   5 -  47  addr(0x002062F0)
+   Line    618 : Col   5 -  32  addr(0x002062F4)
+   Line    618 : Col   5 -  32  addr(0x002062F6)
+   Line    618 : Col   5 -  33  addr(0x002062FA)
+   Line    621 : Col   5 -  23  addr(0x002062FA)
+   Line    627 : Col   7 -  22  addr(0x00206300)
+   Line    633 : Col   9 -  32  addr(0x00206308)
+   Line    629 : Col   9 -  36  addr(0x00206308)
+   Line    639 : Col   7 -  29  addr(0x0020630A)
+   Line    644 : Col   5 -  32  addr(0x00206312)
+   Line    644 : Col   5 -  32  addr(0x00206314)
+   Line    646 : Col   1 -   1  addr(0x0020631C)
+
+Function "macTxChannelBusyCallback" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    522 : Col   3 -  98  addr(0x00206252)
+   Line    522 : Col   3 -  98  addr(0x0020625C)
+   Line    522 : Col   3 -  99  addr(0x00206260)
+   Line    525 : Col   3 -  43  addr(0x00206260)
+   Line    526 : Col   3 -  20  addr(0x00206264)
+   Line    529 : Col   3 -   7  addr(0x00206268)
+   Line    530 : Col   3 -  36  addr(0x0020626A)
+   Line    532 : Col   5 -  43  addr(0x00206278)
+   Line    536 : Col   5 -  45  addr(0x00206280)
+   Line    537 : Col   5 -  17  addr(0x0020628E)
+   Line    538 : Col   5 -  35  addr(0x00206292)
+   Line    539 : Col   5 -  15  addr(0x00206296)
+
+Function "macTxDoneCallback" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    563 : Col   3 -  31  addr(0x0020629E)
+   Line    563 : Col   3 -  32  addr(0x002062A2)
+   Line    564 : Col   3 -  38  addr(0x002062A2)
+   Line    567 : Col   5 -  18  addr(0x002062B0)
+   Line    569 : Col   7 -  39  addr(0x002062B4)
+   Line    570 : Col   7 -  34  addr(0x002062B8)
+   Line    570 : Col   7 -  34  addr(0x002062BA)
+   Line    570 : Col   7 -  35  addr(0x002062BE)
+   Line    573 : Col   7 -  30  addr(0x002062BE)
+   Line    584 : Col   7 -  49  addr(0x002062C6)
+   Line    585 : Col   7 -  50  addr(0x002062CA)
+   Line    586 : Col   7 -  34  addr(0x002062CE)
+   Line    591 : Col   5 -  32  addr(0x002062CE)
+   Line    591 : Col   5 -  32  addr(0x002062D0)
+   Line    593 : Col   1 -   1  addr(0x002062D2)
+
+Function "macTxFrame" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    201 : Col   3 -  26  addr(0x002060C6)
+   Line    201 : Col   3 -  26  addr(0x002060CE)
+   Line    201 : Col   3 -  27  addr(0x002060D2)
+   Line    204 : Col   3 -  41  addr(0x002060D2)
+   Line    212 : Col   3 -  45  addr(0x002060D4)
+   Line    215 : Col   5 -  31  addr(0x002060DC)
+   Line    222 : Col   3 -  21  addr(0x002060E4)
+   Line    227 : Col   3 -  39  addr(0x002060E6)
+   Line    229 : Col   5 -  32  addr(0x002060EE)
+   Line    241 : Col   5 - 100  addr(0x002060F4)
+   Line    241 : Col   5 - 100  addr(0x002060FA)
+   Line    241 : Col   5 - 101  addr(0x002060FE)
+   Line    243 : Col   5 -  11  addr(0x002060FE)
+   Line    244 : Col   5 - 103  addr(0x00206102)
+   Line    246 : Col   5 -  74  addr(0x0020610A)
+   Line    248 : Col   7 -  32  addr(0x0020611C)
+   Line    251 : Col   5 -  17  addr(0x00206124)
+   Line    258 : Col   3 -  24  addr(0x00206128)
+   Line    263 : Col   5 -  34  addr(0x0020612C)
+   Line    263 : Col   5 -  34  addr(0x00206130)
+   Line    263 : Col   5 -  35  addr(0x00206134)
+   Line    266 : Col   5 -  51  addr(0x00206134)
+   Line    267 : Col   5 -  50  addr(0x00206136)
+   Line    270 : Col   5 -  38  addr(0x00206136)
+   Line    273 : Col   5 -  48  addr(0x00206136)
+   Line    276 : Col   5 -  30  addr(0x00206136)
+   Line    284 : Col   5 -  29  addr(0x00206136)
+   Line    284 : Col   5 -  30  addr(0x00206152)
+   Line    287 : Col   5 -  64  addr(0x00206152)
+   Line    301 : Col   5 -  33  addr(0x0020615A)
+   Line    301 : Col   5 -  34  addr(0x0020615E)
+   Line    302 : Col   5 -  46  addr(0x0020615E)
+   Line    304 : Col   7 -  37  addr(0x00206170)
+   Line    305 : Col   7 -  34  addr(0x00206174)
+   Line    305 : Col   7 -  34  addr(0x00206176)
+   Line    305 : Col   7 -  35  addr(0x0020617A)
+   Line    306 : Col   7 -  13  addr(0x0020617A)
+   Line    310 : Col   7 -  59  addr(0x00206180)
+   Line    320 : Col   9 -  61  addr(0x00206184)
+   Line    323 : Col   7 -  41  addr(0x0020618E)
+   Line    324 : Col   7 -  34  addr(0x00206192)
+   Line    324 : Col   7 -  34  addr(0x00206194)
+   Line    327 : Col   1 -   1  addr(0x0020619C)
+
+Function "macTxFrameRetransmit" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    463 : Col   3 -  23  addr(0x00206206)
+   Line    470 : Col   3 -  24  addr(0x0020620C)
+
+Function "macTxStartQueuedFrame" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    489 : Col   3 -  51  addr(0x00206212)
+   Line    489 : Col   3 -  51  addr(0x0020621E)
+   Line    489 : Col   3 -  52  addr(0x00206222)
+   Line    495 : Col   3 -  31  addr(0x00206222)
+   Line    495 : Col   3 -  32  addr(0x00206226)
+   Line    496 : Col   3 -  42  addr(0x00206226)
+   Line    498 : Col   5 -  35  addr(0x00206234)
+   Line    499 : Col   5 -  32  addr(0x00206238)
+   Line    499 : Col   5 -  32  addr(0x0020623A)
+   Line    499 : Col   5 -  33  addr(0x0020623E)
+   Line    500 : Col   5 -  11  addr(0x0020623E)
+   Line    504 : Col   5 -  32  addr(0x00206244)
+   Line    504 : Col   5 -  32  addr(0x00206246)
+   Line    506 : Col   1 -   1  addr(0x0020624E)
+
+Function "macTxTimestampCallback" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    770 : Col   3 -  32  addr(0x00206388)
+   Line    770 : Col   3 -  32  addr(0x0020638E)
+   Line    770 : Col   3 -  33  addr(0x00206392)
+   Line    772 : Col   3 -  61  addr(0x00206392)
+   Line    773 : Col   3 -  62  addr(0x0020639A)
+   Line    774 : Col   1 -   1  addr(0x002063A2)
+
+Function "txComplete" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    726 : Col   3 -  23  addr(0x0020635A)
+   Line    729 : Col   3 -  42  addr(0x0020635E)
+   Line    734 : Col   3 -  32  addr(0x0020635E)
+   Line    736 : Col   5 -  37  addr(0x00206366)
+   Line    740 : Col   3 -  20  addr(0x00206370)
+   Line    743 : Col   3 -  26  addr(0x00206374)
+   Line    750 : Col   3 -  26  addr(0x00206378)
+   Line    753 : Col   3 -  32  addr(0x0020637C)
+
+Function "txCsmaGo" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    418 : Col   5 -  15  addr(0x002061E4)
+
+Function "txCsmaPrep" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    342 : Col   3 -  70  addr(0x002061A0)
+   Line    344 : Col   3 -  44  addr(0x002061B4)
+   Line    346 : Col   5 -  37  addr(0x002061B8)
+   Line    350 : Col   5 -  39  addr(0x002061C0)
+
+Function "txGo" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\mac\low_level\srf05\mac_tx.c
+
+   Line    400 : Col   3 -  41  addr(0x002061C8)
+   Line    400 : Col   3 -  42  addr(0x002061CA)
+   Line    401 : Col   3 -  27  addr(0x002061CA)
+   Line    404 : Col   3 -  39  addr(0x002061D8)
+   Line    406 : Col   5 -  30  addr(0x002061E0)
+   Line    418 : Col   5 -  15  addr(0x002061E4)
+
++------------------------------------------+
+
+Module "OSAL_Timers" coverage: 0.00%
+
+Function "osalAddTimer" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Timers.c
+
+   Line    140 : Col   3 -  50  addr(0x00203838)
+   Line    141 : Col   3 -  17  addr(0x0020383C)
+   Line    144 : Col   5 -  39  addr(0x0020383E)
+   Line    146 : Col   5 -  24  addr(0x00203840)
+   Line    151 : Col   5 -  58  addr(0x00203842)
+   Line    153 : Col   5 -  19  addr(0x00203848)
+   Line    156 : Col   7 -  34  addr(0x0020384A)
+   Line    157 : Col   7 -  40  addr(0x0020384C)
+   Line    158 : Col   7 -  41  addr(0x0020384E)
+   Line    159 : Col   7 -  36  addr(0x00203850)
+   Line    160 : Col   7 -  34  addr(0x00203854)
+   Line    163 : Col   7 -  30  addr(0x00203856)
+   Line    166 : Col   9 -  29  addr(0x0020385C)
+   Line    175 : Col  11 -  38  addr(0x00203860)
+   Line    174 : Col   9 -  33  addr(0x00203862)
+   Line    178 : Col   9 -  35  addr(0x00203868)
+   Line    181 : Col   7 -  26  addr(0x0020386A)
+   Line    185 : Col   7 -  40  addr(0x0020386A)
+
+Function "osalFindTimer" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Timers.c
+
+   Line    206 : Col   3 -  24  addr(0x00203870)
+   Line    209 : Col   3 -  21  addr(0x00203874)
+   Line      211 -    212 : Col   5 -  40  addr(0x00203876)
+   Line    221 : Col   3 -  23  addr(0x00203882)
+
+Function "osalTimerUpdate" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Timers.c
+
+   Line    420 : Col   3 -  32  addr(0x00203944)
+   Line    422 : Col   3 -  40  addr(0x00203944)
+   Line    422 : Col   3 -  41  addr(0x00203948)
+   Line    424 : Col   3 -  33  addr(0x00203948)
+   Line    425 : Col   3 -  39  addr(0x00203954)
+   Line    425 : Col   3 -  39  addr(0x00203956)
+   Line    425 : Col   3 -  40  addr(0x0020395A)
+   Line    428 : Col   3 -  26  addr(0x0020395A)
+   Line    431 : Col   5 -  26  addr(0x00203960)
+   Line    432 : Col   5 -  29  addr(0x00203960)
+   Line    437 : Col  23 -  39  addr(0x00203966)
+   Line    439 : Col   7 -  44  addr(0x00203966)
+   Line    439 : Col   7 -  45  addr(0x00203970)
+   Line    442 : Col   7 -  66  addr(0x00203970)
+   Line    445 : Col   9 -  62  addr(0x00203982)
+   Line    448 : Col  11 -  60  addr(0x0020398C)
+   Line    466 : Col   9 -  57  addr(0x00203992)
+   Line    468 : Col  11 -  56  addr(0x002039A0)
+   Line    472 : Col  11 -  40  addr(0x002039A0)
+   Line      477 -    478 : Col   7 -  66  addr(0x002039A0)
+   Line    481 : Col   9 -  68  addr(0x002039B4)
+   Line    484 : Col   9 -  61  addr(0x002039BA)
+   Line      488 -    489 : Col   7 -  42  addr(0x002039BE)
+   Line    492 : Col   9 -  32  addr(0x002039CA)
+   Line    494 : Col  11 -  38  addr(0x002039D8)
+   Line    498 : Col  11 -  44  addr(0x002039D8)
+   Line    502 : Col   9 -  30  addr(0x002039D8)
+   Line    505 : Col   9 -  36  addr(0x002039DA)
+   Line    510 : Col   9 -  30  addr(0x002039DC)
+   Line    511 : Col   9 -  36  addr(0x002039DE)
+   Line    514 : Col   7 -  43  addr(0x002039E0)
+   Line    514 : Col   7 -  43  addr(0x002039E2)
+   Line    514 : Col   7 -  44  addr(0x002039E6)
+   Line    516 : Col   7 -  22  addr(0x002039E6)
+   Line    518 : Col   9 -  89  addr(0x002039E8)
+   Line    520 : Col  11 -  70  addr(0x002039F4)
+   Line    522 : Col   9 -  35  addr(0x002039FC)
+   Line    435 : Col   5 -  23  addr(0x00203A02)
+   Line    526 : Col   1 -   1  addr(0x00203A06)
+
+Function "osal_GetSystemClock" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Timers.c
+
+   Line    611 : Col   3 -  30  addr(0x00203A0A)
+
+Function "osal_get_timeoutEx" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Timers.c
+
+   Line    355 : Col  10 -  18  addr(0x0020391A)
+   Line    358 : Col   3 -  40  addr(0x0020391A)
+   Line    358 : Col   3 -  41  addr(0x00203922)
+   Line    360 : Col   3 -  43  addr(0x00203922)
+   Line    362 : Col   3 -  12  addr(0x0020392E)
+   Line    364 : Col   5 -  31  addr(0x00203930)
+   Line    367 : Col   3 -  39  addr(0x00203932)
+   Line    367 : Col   3 -  39  addr(0x00203934)
+   Line    367 : Col   3 -  40  addr(0x00203938)
+   Line    369 : Col   3 -  14  addr(0x00203938)
+
+Function "osal_start_reload_timer" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Timers.c
+
+   Line    294 : Col   3 -  40  addr(0x002038BA)
+   Line    294 : Col   3 -  41  addr(0x002038C0)
+   Line    297 : Col   3 -  61  addr(0x002038C0)
+   Line    298 : Col   3 -  17  addr(0x002038D0)
+   Line    301 : Col   5 -  44  addr(0x002038D4)
+   Line    304 : Col   3 -  39  addr(0x002038D4)
+   Line    304 : Col   3 -  39  addr(0x002038D6)
+   Line    304 : Col   3 -  40  addr(0x002038DA)
+   Line    306 : Col   3 -  59  addr(0x002038DA)
+
+Function "osal_start_timerEx" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Timers.c
+
+   Line    264 : Col   3 -  40  addr(0x0020388C)
+   Line    264 : Col   3 -  41  addr(0x00203890)
+   Line    267 : Col   3 -  61  addr(0x00203890)
+   Line    269 : Col   3 -  39  addr(0x002038A2)
+   Line    269 : Col   3 -  39  addr(0x002038A4)
+   Line    269 : Col   3 -  40  addr(0x002038A8)
+   Line    271 : Col   3 -  59  addr(0x002038A8)
+
+Function "osal_stop_timerEx" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Timers.c
+
+   Line    328 : Col   3 -  40  addr(0x002038EA)
+   Line    328 : Col   3 -  41  addr(0x002038F0)
+   Line    331 : Col   3 -  50  addr(0x002038F0)
+   Line    332 : Col   3 -  19  addr(0x002038FE)
+   Line    334 : Col   5 -  34  addr(0x00203904)
+   Line    337 : Col   3 -  39  addr(0x00203904)
+   Line    337 : Col   3 -  39  addr(0x00203906)
+   Line    337 : Col   3 -  40  addr(0x0020390A)
+   Line    339 : Col   3 -  63  addr(0x0020390A)
+
++------------------------------------------+
+
+Module "OSAL_Clock" coverage: 0.00%
+
+Function "osalAdjustTimer" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Clock.c
+
+   Line    278 : Col   3 -  22  addr(0x00208208)
+   Line    280 : Col   3 -  24  addr(0x0020820C)
+   Line    281 : Col   3 -  24  addr(0x00208212)
+   Line    284 : Col   3 -  21  addr(0x00208218)
+
+Function "osalClockUpdate" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Clock.c
+
+   Line    252 : Col   3 -  38  addr(0x002081D0)
+   Line    252 : Col   3 -  39  addr(0x002081D4)
+   Line    254 : Col   3 -  26  addr(0x002081D4)
+   Line    257 : Col   3 -  25  addr(0x002081E0)
+   Line    259 : Col   5 -  19  addr(0x002081E6)
+   Line    260 : Col   5 -  70  addr(0x002081E6)
+   Line    260 : Col   5 -  70  addr(0x002081F2)
+   Line    260 : Col   5 -  71  addr(0x002081FC)
+   Line    262 : Col   3 -  37  addr(0x002081FE)
+   Line    262 : Col   3 -  37  addr(0x00208200)
+   Line    262 : Col   3 -  38  addr(0x00208202)
+   Line    263 : Col   1 -   1  addr(0x00208202)
+
++------------------------------------------+
+
+Module "OSAL" coverage: 4.90%
+
+Function "osal_buffer_uint24" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line   1763 : Col   3 -  34  addr(0x00201C5E)
+   Line   1764 : Col   3 -  34  addr(0x00201C60)
+   Line   1765 : Col   3 -  34  addr(0x00201C62)
+   Line   1767 : Col   3 -  13  addr(0x00201C68)
+
+Function "osal_buffer_uint32" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line   1740 : Col   3 -  34  addr(0x00201C4C)
+   Line   1741 : Col   3 -  34  addr(0x00201C4E)
+   Line   1742 : Col   3 -  34  addr(0x00201C50)
+   Line   1743 : Col   3 -  34  addr(0x00201C52)
+   Line   1745 : Col   3 -  13  addr(0x00201C5A)
+
+Function "osal_build_uint32" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line    360 : Col   3 -  17  addr(0x00201A9E)
+   Line    361 : Col   5 -  62  addr(0x00201AA4)
+   Line    362 : Col   8 -  22  addr(0x00201AAC)
+   Line    363 : Col   5 -  70  addr(0x00201AB0)
+   Line    364 : Col   8 -  22  addr(0x00201ABE)
+   Line    365 : Col   5 -  78  addr(0x00201AC2)
+   Line    367 : Col   5 -  34  addr(0x00201AD4)
+
+Function "osal_memcmp" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line    300 : Col   3 -  15  addr(0x00201A6E)
+   Line    301 : Col   3 -  15  addr(0x00201A6E)
+   Line    303 : Col   3 -  17  addr(0x00201A6E)
+   Line    305 : Col   5 -  30  addr(0x00201A74)
+   Line    306 : Col   7 -  19  addr(0x00201A80)
+   Line    308 : Col   3 -  14  addr(0x00201A84)
+
+Function "osal_memcpy" coverage: 100.00%
+
+Function "osal_memset" coverage: 100.00%
+
+Function "osal_msg_allocate" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line    565 : Col   3 -  17  addr(0x00201ADE)
+   Line    566 : Col   5 -  20  addr(0x00201AE0)
+   Line    568 : Col   3 -  85  addr(0x00201AE4)
+   Line    569 : Col   3 -  12  addr(0x00201AEE)
+   Line    571 : Col   5 -  21  addr(0x00201AF0)
+   Line    572 : Col   5 -  19  addr(0x00201AF4)
+   Line    573 : Col   5 -  32  addr(0x00201AF4)
+   Line    574 : Col   5 -  35  addr(0x00201AFA)
+   Line    577 : Col   5 -  20  addr(0x00201AFC)
+
+Function "osal_msg_deallocate" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line    598 : Col   3 -  24  addr(0x00201B00)
+   Line    599 : Col   5 -  35  addr(0x00201B02)
+   Line    602 : Col   3 -  47  addr(0x00201B06)
+   Line    603 : Col   5 -  36  addr(0x00201B0E)
+   Line    605 : Col   3 -  61  addr(0x00201B12)
+   Line    607 : Col   3 -  29  addr(0x00201B12)
+   Line    609 : Col   3 -  21  addr(0x00201B18)
+
+Function "osal_msg_enqueue" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line    936 : Col   3 -  39  addr(0x00201B80)
+   Line    938 : Col   3 -  34  addr(0x00201B80)
+   Line    940 : Col   3 -  23  addr(0x00201B88)
+   Line    942 : Col   5 -  21  addr(0x00201B8C)
+   Line    947 : Col  57 -  86  addr(0x00201B90)
+   Line    947 : Col  26 -  55  addr(0x00201B92)
+   Line    950 : Col   5 -  36  addr(0x00201B9A)
+   Line    954 : Col   3 -  37  addr(0x00201B9E)
+   Line    954 : Col   3 -  37  addr(0x00201BA0)
+   Line    954 : Col   3 -  38  addr(0x00201BA2)
+   Line    955 : Col   1 -   1  addr(0x00201BA2)
+
+Function "osal_msg_enqueue_max" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line   1074 : Col   9 -  20  addr(0x00201BD6)
+   Line   1078 : Col   3 -  38  addr(0x00201BD6)
+   Line   1078 : Col   3 -  39  addr(0x00201BE0)
+   Line   1081 : Col   3 -  23  addr(0x00201BE0)
+   Line   1083 : Col   5 -  21  addr(0x00201BE6)
+   Line   1084 : Col   5 -  15  addr(0x00201BE8)
+   Line   1089 : Col   5 -  18  addr(0x00201BEA)
+   Line   1090 : Col   5 -  10  addr(0x00201BEA)
+   Line   1093 : Col   7 -  35  addr(0x00201BF2)
+   Line   1094 : Col   7 -  12  addr(0x00201BF4)
+   Line   1091 : Col   5 -  58  addr(0x00201BF6)
+   Line   1098 : Col   5 -  19  addr(0x00201BFE)
+   Line   1100 : Col   7 -  38  addr(0x00201C02)
+   Line   1101 : Col   7 -  17  addr(0x00201C06)
+   Line   1106 : Col   3 -  37  addr(0x00201C08)
+   Line   1106 : Col   3 -  37  addr(0x00201C0A)
+   Line   1106 : Col   3 -  38  addr(0x00201C0E)
+   Line   1108 : Col   3 -  13  addr(0x00201C0E)
+
+Function "osal_msg_push" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line   1009 : Col   3 -  39  addr(0x00201BB4)
+   Line   1012 : Col   3 -  36  addr(0x00201BB4)
+   Line   1013 : Col   3 -  19  addr(0x00201BBE)
+   Line   1016 : Col   3 -  37  addr(0x00201BC0)
+   Line   1016 : Col   3 -  37  addr(0x00201BC2)
+   Line   1016 : Col   3 -  38  addr(0x00201BC4)
+   Line   1017 : Col   1 -   1  addr(0x00201BC4)
+
+Function "osal_msg_send" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line    666 : Col   3 -  71  addr(0x00201B1C)
+
+Function "osal_rand" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line    460 : Col   3 -  28  addr(0x00201AD6)
+
+Function "osal_set_event" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line   1187 : Col   5 -  40  addr(0x00201C1A)
+   Line   1187 : Col   5 -  41  addr(0x00201C1E)
+   Line   1188 : Col   5 -  39  addr(0x00201C1E)
+   Line   1189 : Col   5 -  39  addr(0x00201C32)
+   Line   1189 : Col   5 -  39  addr(0x00201C34)
+   Line   1189 : Col   5 -  40  addr(0x00201C38)
+   Line   1193 : Col   5 -  23  addr(0x00201C38)
+   Line   1197 : Col   5 -  28  addr(0x00201C3C)
+
+Function "osal_msg_enqueue_push" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL.c
+
+   Line    710 : Col   3 -  24  addr(0x00201B24)
+   Line    722 : Col   3 -  37  addr(0x00201B26)
+   Line    724 : Col   5 -  35  addr(0x00201B30)
+   Line    725 : Col   5 -  28  addr(0x00201B36)
+   Line      729 -    730 : Col   3 -  47  addr(0x00201B3A)
+   Line    732 : Col   5 -  35  addr(0x00201B4A)
+   Line    733 : Col   5 -  35  addr(0x00201B50)
+   Line    736 : Col   3 -  44  addr(0x00201B54)
+   Line    738 : Col   3 -  21  addr(0x00201B54)
+   Line    741 : Col   5 -  42  addr(0x00201B5E)
+   Line    746 : Col   5 -  45  addr(0x00201B64)
+   Line    750 : Col   3 -  52  addr(0x00201B68)
+   Line    752 : Col   3 -  21  addr(0x00201B72)
+
++------------------------------------------+
+
+Module "OSAL_Memory" coverage: 65.28%
+
+Function "osal_mem_alloc" coverage: 79.55%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Memory.c
+
+   Line    357 : Col   5 -  41  addr(0x00201960)
+   Line    375 : Col   9 -  38  addr(0x00201968)
+   Line    377 : Col   9 -  36  addr(0x0020197E)
+   Line    390 : Col   9 -  17  addr(0x002019AC)
+   Line    391 : Col   9 -  19  addr(0x002019AE)
+   Line    399 : Col   7 -  17  addr(0x002019BE)
+   Line    400 : Col   7 -  12  addr(0x002019C0)
+   Line    433 : Col   7 -  28  addr(0x002019C2)
+   Line    483 : Col   7 -  58  addr(0x002019CE)
+
+Function "osal_mem_free" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\osal\common\OSAL_Memory.c
+
+   Line    524 : Col  17 -  46  addr(0x002019F6)
+   Line    531 : Col   3 -  96  addr(0x002019F6)
+   Line    531 : Col   3 -  96  addr(0x00201A06)
+   Line    531 : Col   3 -  97  addr(0x00201A0A)
+   Line    532 : Col   3 -  28  addr(0x00201A0A)
+   Line    532 : Col   3 -  28  addr(0x00201A14)
+   Line    532 : Col   3 -  29  addr(0x00201A18)
+   Line    534 : Col   3 -  40  addr(0x00201A18)
+   Line    534 : Col   3 -  41  addr(0x00201A1C)
+   Line    535 : Col   3 -  25  addr(0x00201A1C)
+   Line    537 : Col   3 -  16  addr(0x00201A20)
+   Line    539 : Col   5 -  14  addr(0x00201A3A)
+   Line    567 : Col   3 -  39  addr(0x00201A3A)
+   Line    567 : Col   3 -  39  addr(0x00201A3C)
+   Line    567 : Col   3 -  40  addr(0x00201A44)
+   Line    568 : Col   1 -   1  addr(0x00201A44)
+
+Function "osal_mem_init" coverage: 100.00%
+
++------------------------------------------+
+
+Module "saddr" coverage: 0.00%
+
+Function "sAddrExtCmp" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\services\saddr\saddr.c
+
+   Line    195 : Col   3 -  25  addr(0x0020323A)
+   Line    197 : Col   5 -  31  addr(0x0020323C)
+   Line    195 : Col  35 -  38  addr(0x00203248)
+   Line    195 : Col  27 -  33  addr(0x0020324A)
+   Line    202 : Col   3 -  14  addr(0x0020324C)
+   Line    199 : Col   7 -  19  addr(0x00203250)
+
+Function "sAddrExtCpy" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\services\saddr\saddr.c
+
+   Line    222 : Col   3 -  49  addr(0x00203254)
+
++------------------------------------------+
+
+Module "zcl" coverage: 17.60%
+
+Function "zclFindAttrRec" coverage: 87.50%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2654 : Col   3 -  19  addr(0x00200A3E)
+
+Function "zclFindAttrRecsList" coverage: 100.00%
+
+Function "zclGetAttrDataLength" coverage: 85.71%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3295 : Col   5 -  53  addr(0x00200D92)
+
+Function "zclGetDataTypeLength" coverage: 13.64%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3219 : Col   7 -  14  addr(0x00200D64)
+   Line   3220 : Col   7 -  12  addr(0x00200D66)
+   Line   3226 : Col   7 -  14  addr(0x00200D68)
+   Line   3227 : Col   7 -  12  addr(0x00200D6A)
+   Line   3238 : Col   7 -  14  addr(0x00200D6C)
+   Line   3239 : Col   7 -  12  addr(0x00200D6E)
+   Line   3243 : Col   8 -  15  addr(0x00200D70)
+   Line   3244 : Col   8 -  13  addr(0x00200D72)
+   Line   3248 : Col   8 -  15  addr(0x00200D74)
+   Line   3249 : Col   8 -  13  addr(0x00200D76)
+   Line   3253 : Col   8 -  15  addr(0x00200D78)
+   Line   3254 : Col   8 -  13  addr(0x00200D7A)
+   Line   3260 : Col   6 -  13  addr(0x00200D7C)
+   Line   3261 : Col   6 -  11  addr(0x00200D7E)
+   Line   3264 : Col   6 -  23  addr(0x00200D80)
+   Line   3265 : Col   6 -  11  addr(0x00200D82)
+   Line   3272 : Col   7 -  14  addr(0x00200D84)
+   Line   3273 : Col   7 -  12  addr(0x00200D86)
+   Line   3276 : Col   3 -  17  addr(0x00200D86)
+
+Function "zclParseHdr" coverage: 100.00%
+
+Function "zclParseInDiscAttrsCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4282 : Col  10 -  28  addr(0x002010EC)
+   Line   4284 : Col   3 -  92  addr(0x002010EE)
+   Line   4285 : Col   3 -  29  addr(0x002010F4)
+   Line   4287 : Col   5 -  63  addr(0x002010F6)
+   Line   4288 : Col   5 -  14  addr(0x00201100)
+   Line   4289 : Col   5 -  37  addr(0x00201100)
+   Line   4292 : Col   3 -  34  addr(0x00201104)
+
+Function "zclParseInDiscCmdsCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4350 : Col  10 -  28  addr(0x00201130)
+
+Function "zclParseInReadCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3596 : Col  10 -  28  addr(0x00200EE2)
+   Line   3598 : Col   3 -  85  addr(0x00200EE2)
+   Line   3599 : Col   3 -  24  addr(0x00200EEA)
+   Line   3602 : Col   5 -  41  addr(0x00200EEC)
+   Line   3603 : Col   5 -  16  addr(0x00200EF2)
+   Line   3605 : Col   7 -  60  addr(0x00200EF8)
+   Line   3606 : Col   7 -  16  addr(0x00200F06)
+   Line   3603 : Col  40 -  44  addr(0x00200F08)
+   Line   3603 : Col  18 -  38  addr(0x00200F0A)
+   Line   3610 : Col   3 -  29  addr(0x00200F12)
+
+Function "zclParseInWriteCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3722 : Col  10 -  28  addr(0x00200FEE)
+   Line   3725 : Col   9 -  20  addr(0x00200FEE)
+   Line   3727 : Col  10 -  21  addr(0x00200FF2)
+   Line   3734 : Col   5 -  14  addr(0x00200FF6)
+   Line   3735 : Col   5 -  14  addr(0x00200FF6)
+   Line   3737 : Col   5 -  23  addr(0x00200FF6)
+   Line   3739 : Col   5 -  57  addr(0x00200FFA)
+   Line   3740 : Col   5 -  24  addr(0x00201002)
+   Line   3743 : Col   5 -  40  addr(0x00201002)
+   Line   3745 : Col   7 -  20  addr(0x00201016)
+   Line   3748 : Col   5 -  27  addr(0x00201016)
+   Line   3730 : Col   3 -  50  addr(0x00201018)
+   Line   3752 : Col   3 -  75  addr(0x00201022)
+   Line   3754 : Col   3 -  64  addr(0x00201028)
+   Line   3755 : Col   3 -  25  addr(0x00201030)
+   Line   3758 : Col   5 -  23  addr(0x00201032)
+   Line   3759 : Col   5 -  54  addr(0x00201034)
+   Line   3761 : Col   5 -  32  addr(0x00201034)
+   Line   3762 : Col   5 -  16  addr(0x00201038)
+   Line   3764 : Col  22 -  58  addr(0x0020103E)
+   Line   3766 : Col   7 -  59  addr(0x00201046)
+   Line   3767 : Col   7 -  16  addr(0x00201052)
+   Line   3768 : Col   7 -  36  addr(0x00201052)
+   Line   3770 : Col   7 -  70  addr(0x0020105C)
+   Line   3771 : Col   7 -  46  addr(0x00201064)
+   Line   3772 : Col   7 -  36  addr(0x0020106E)
+   Line   3774 : Col   7 -  26  addr(0x0020106E)
+   Line   3777 : Col   7 -  42  addr(0x0020106E)
+   Line   3779 : Col   9 -  22  addr(0x0020108A)
+   Line   3782 : Col   7 -  29  addr(0x0020108A)
+   Line   3762 : Col  31 -  35  addr(0x0020108C)
+   Line   3762 : Col  18 -  29  addr(0x0020108E)
+   Line   3786 : Col   3 -  30  addr(0x00201098)
+
+Function "zclReadAttrData" coverage: 71.43%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3328 : Col   5 -  34  addr(0x00200DBC)
+   Line   3336 : Col   5 -  24  addr(0x00200DD4)
+
+Function "zclSerializeData" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2971 : Col   3 -  25  addr(0x00200BA8)
+   Line   2976 : Col   3 -  21  addr(0x00200BA8)
+   Line   2984 : Col   7 -  36  addr(0x00200C60)
+   Line   2985 : Col   8 -  13  addr(0x00200C66)
+   Line   2995 : Col   7 -  49  addr(0x00200C68)
+   Line   2996 : Col   7 -  49  addr(0x00200C6E)
+   Line   2997 : Col   7 -  12  addr(0x00200C76)
+   Line   3003 : Col   7 -  55  addr(0x00200C78)
+   Line   3004 : Col   7 -  55  addr(0x00200C7E)
+   Line   3005 : Col   7 -  55  addr(0x00200C86)
+   Line   3006 : Col   7 -  12  addr(0x00200C8E)
+   Line   3017 : Col   7 -  59  addr(0x00200C90)
+   Line   3023 : Col   7 -  30  addr(0x00200C9A)
+   Line   3024 : Col   7 -  39  addr(0x00200C9A)
+   Line   3030 : Col   7 -  30  addr(0x00200C9E)
+   Line   3031 : Col   7 -  39  addr(0x00200C9E)
+   Line   3037 : Col   7 -  30  addr(0x00200CA2)
+   Line   3038 : Col   7 -  39  addr(0x00200CA2)
+   Line   3046 : Col   7 -  30  addr(0x00200CA6)
+   Line   3047 : Col   7 -  39  addr(0x00200CA6)
+   Line   3052 : Col   7 -  30  addr(0x00200CAA)
+   Line   3053 : Col   7 -  18  addr(0x00200CAA)
+   Line   3054 : Col   7 -  43  addr(0x00200CAA)
+   Line   3059 : Col   7 -  30  addr(0x00200CB0)
+   Line   3060 : Col   7 -  45  addr(0x00200CB0)
+   Line   3061 : Col   7 -  43  addr(0x00200CB0)
+   Line   3065 : Col   7 -  30  addr(0x00200CBE)
+   Line   3066 : Col   7 -  49  addr(0x00200CBE)
+
+Function "zcl_HandleExternal" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line    682 : Col   3 -  59  addr(0x00200178)
+   Line    684 : Col   3 -  31  addr(0x0020017E)
+   Line    689 : Col   3 -  78  addr(0x00200184)
+   Line    690 : Col   3 -  21  addr(0x0020018C)
+   Line    693 : Col   5 -  39  addr(0x0020018E)
+   Line    694 : Col   5 -  34  addr(0x00200192)
+   Line    695 : Col   5 -  45  addr(0x0020019A)
+   Line    696 : Col   5 -  43  addr(0x002001A0)
+   Line    697 : Col   5 -  44  addr(0x002001AC)
+   Line    698 : Col   5 -  38  addr(0x002001B2)
+   Line    715 : Col   5 -  27  addr(0x002001B2)
+   Line    718 : Col   5 -  43  addr(0x002001BA)
+   Line    721 : Col   3 -  18  addr(0x002001C2)
+
+Function "zcl_ProcessMessageMSG" coverage: 46.48%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2209 : Col   5 -  20  addr(0x00200772)
+   Line   2210 : Col   5 -  37  addr(0x00200774)
+   Line   2217 : Col   5 -  20  addr(0x00200796)
+   Line   2218 : Col   5 -  40  addr(0x00200798)
+   Line   2250 : Col   5 -  65  addr(0x002007D2)
+   Line   2254 : Col   5 -  70  addr(0x002007D2)
+   Line   2256 : Col   7 -  37  addr(0x002007E0)
+   Line   2259 : Col   9 -  69  addr(0x002007EE)
+   Line   2261 : Col   9 -  42  addr(0x002007F8)
+   Line   2262 : Col   9 -  54  addr(0x002007FE)
+   Line     2263 -   2266 : Col   9 -  75  addr(0x002007FE)
+   Line   2268 : Col   9 -  68  addr(0x00200832)
+   Line   2271 : Col   7 -  22  addr(0x0020083C)
+   Line   2272 : Col   7 -  37  addr(0x0020083E)
+   Line     2284 -   2285 : Col  10 -  78  addr(0x00200842)
+   Line   2289 : Col   7 -  40  addr(0x00200854)
+   Line   2290 : Col   7 -  40  addr(0x0020085A)
+   Line   2291 : Col   7 -  35  addr(0x00200862)
+   Line   2294 : Col   7 -  68  addr(0x00200866)
+   Line   2295 : Col   7 - 102  addr(0x0020086C)
+   Line   2298 : Col   9 -  68  addr(0x0020087A)
+   Line   2305 : Col   7 -  26  addr(0x0020087E)
+   Line   2307 : Col   9 -  38  addr(0x00200882)
+   Line   2310 : Col   7 -  47  addr(0x00200888)
+   Line   2316 : Col   7 -  24  addr(0x002008B6)
+   Line   2321 : Col   7 -  48  addr(0x002008BA)
+   Line   2326 : Col   5 -  50  addr(0x002008BE)
+   Line   2335 : Col   7 -  52  addr(0x002008C8)
+   Line   2336 : Col   7 -  86  addr(0x002008CC)
+   Line   2338 : Col   9 -  24  addr(0x002008D2)
+   Line   2339 : Col   9 -  36  addr(0x002008D6)
+   Line   2343 : Col   5 -  29  addr(0x002008D8)
+   Line   2346 : Col   7 -  38  addr(0x002008DC)
+   Line   2360 : Col   5 -  38  addr(0x00200900)
+   Line   2361 : Col   5 -  50  addr(0x00200900)
+   Line     2362 -   2365 : Col   5 -  71  addr(0x00200904)
+   Line   2366 : Col   5 -  31  addr(0x00200936)
+   Line   2387 : Col   5 -  30  addr(0x0020094E)
+
+Function "zcl_SendCommand" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   1110 : Col   3 -  39  addr(0x002002A4)
+   Line   1111 : Col   3 -  23  addr(0x002002AA)
+   Line   1113 : Col   5 -  33  addr(0x002002AE)
+   Line   1124 : Col   5 -  54  addr(0x002002B0)
+   Line   1129 : Col   5 -  40  addr(0x002002BA)
+   Line   1131 : Col  30 -  57  addr(0x002002C2)
+   Line   1133 : Col   7 -  68  addr(0x002002C6)
+   Line   1135 : Col   9 -  34  addr(0x002002D2)
+   Line   1140 : Col   3 -  49  addr(0x002002D4)
+   Line   1143 : Col   3 -  17  addr(0x002002DE)
+   Line   1145 : Col   5 -  46  addr(0x002002E0)
+   Line   1149 : Col   5 -  45  addr(0x002002EC)
+   Line     1152 -   1154 : Col   3 -  81  addr(0x002002F4)
+   Line   1156 : Col   5 -  24  addr(0x0020030E)
+   Line   1160 : Col   3 -  22  addr(0x00200314)
+   Line   1162 : Col   5 -  28  addr(0x00200318)
+   Line   1163 : Col   5 -  28  addr(0x0020031A)
+   Line   1167 : Col   3 -  18  addr(0x00200324)
+   Line   1169 : Col   5 -  51  addr(0x00200324)
+   Line   1173 : Col   5 -  51  addr(0x00200324)
+   Line   1177 : Col   3 -  26  addr(0x00200324)
+   Line   1179 : Col   5 -  33  addr(0x00200324)
+   Line   1183 : Col   5 -  33  addr(0x00200324)
+   Line   1187 : Col   3 -  27  addr(0x00200324)
+   Line   1190 : Col   3 -  22  addr(0x00200324)
+   Line   1193 : Col   3 -  34  addr(0x0020034C)
+   Line   1194 : Col   3 -  25  addr(0x00200362)
+   Line   1197 : Col   3 -  35  addr(0x00200364)
+   Line   1198 : Col   3 -  23  addr(0x0020036C)
+   Line   1201 : Col   5 -  39  addr(0x0020036E)
+   Line   1204 : Col   5 -  48  addr(0x002003C2)
+   Line     1206 -   1207 : Col   5 -  65  addr(0x002003D0)
+   Line   1208 : Col   5 -  28  addr(0x002003EE)
+   Line   1212 : Col   5 -  23  addr(0x002003F6)
+   Line   1215 : Col   3 -  20  addr(0x002003F8)
+
+Function "zcl_SendDefaultRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   1874 : Col   3 -  36  addr(0x00200596)
+   Line   1875 : Col   3 -  37  addr(0x002005A6)
+   Line     1877 -   1878 : Col   3 -  87  addr(0x002005AC)
+
+Function "zcl_SendDiscoverAttrsExtRsp" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2128 : Col  10 -  21  addr(0x002006AA)
+   Line   2132 : Col   3 -  52  addr(0x002006AA)
+   Line   2135 : Col   3 -  20  addr(0x002006B4)
+   Line   2138 : Col  12 -  22  addr(0x002006B6)
+   Line   2139 : Col   5 -  44  addr(0x002006B6)
+   Line   2140 : Col   5 -  16  addr(0x002006BC)
+   Line   2142 : Col   7 -  67  addr(0x002006C0)
+   Line   2140 : Col  18 -  46  addr(0x002006D0)
+   Line     2148 -   2149 : Col   5 -  86  addr(0x002006DE)
+   Line   2154 : Col   5 -  23  addr(0x00200704)
+   Line   2157 : Col   3 -  20  addr(0x00200706)
+
+Function "zcl_SendDiscoverAttrsRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2037 : Col  10 -  21  addr(0x00200666)
+   Line   2042 : Col   3 -  48  addr(0x00200666)
+   Line   2045 : Col   3 -  20  addr(0x00200672)
+   Line   2049 : Col  12 -  22  addr(0x00200674)
+   Line   2051 : Col   5 -  44  addr(0x00200674)
+   Line   2053 : Col   5 -  16  addr(0x0020067A)
+   Line   2055 : Col   7 -  63  addr(0x0020067E)
+   Line   2053 : Col  18 -  46  addr(0x00200688)
+   Line   2066 : Col   5 -  23  addr(0x0020069E)
+   Line   2069 : Col   3 -  20  addr(0x002006A0)
+
+Function "zcl_SendDiscoverCmdsRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   1938 : Col   9 -  54  addr(0x002005D4)
+   Line   1941 : Col  13 -  30  addr(0x002005E0)
+   Line   1944 : Col   3 -  41  addr(0x002005E0)
+   Line   1945 : Col   3 -  24  addr(0x002005EA)
+   Line   1947 : Col  12 -  26  addr(0x002005EC)
+   Line   1950 : Col   5 -  44  addr(0x002005EC)
+   Line   1951 : Col   5 -  16  addr(0x002005F2)
+   Line   1953 : Col   7 -  43  addr(0x002005F6)
+   Line   1951 : Col  47 -  51  addr(0x002005FA)
+   Line   1951 : Col  18 -  45  addr(0x00200602)
+   Line   1957 : Col   5 -  68  addr(0x0020060A)
+   Line     1959 -   1960 : Col   7 -  96  addr(0x00200622)
+   Line   1962 : Col  10 -  69  addr(0x0020062A)
+   Line     1964 -   1965 : Col   7 -  96  addr(0x00200630)
+   Line   1968 : Col   5 -  28  addr(0x0020063C)
+   Line   1972 : Col   5 -  23  addr(0x00200642)
+   Line   1975 : Col   3 -  20  addr(0x00200644)
+
+Function "zcl_SendReadRsp" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   1288 : Col  10 -  17  addr(0x00200412)
+   Line   1293 : Col   3 -  14  addr(0x00200414)
+   Line   1293 : Col  16 -  39  addr(0x0020041A)
+   Line   1295 : Col  25 -  63  addr(0x00200422)
+   Line   1297 : Col   5 -  17  addr(0x0020042A)
+   Line   1299 : Col   5 -  50  addr(0x0020042C)
+   Line   1301 : Col   7 -  12  addr(0x00200430)
+   Line   1304 : Col   7 -  36  addr(0x00200432)
+   Line   1310 : Col   9 -  82  addr(0x00200438)
+   Line   1306 : Col   9 -  76  addr(0x00200444)
+   Line   1293 : Col  41 -  45  addr(0x0020044C)
+   Line   1343 : Col  11 -  88  addr(0x00200450)
+   Line   1344 : Col  11 -  26  addr(0x00200462)
+   Line   1323 : Col  27 -  65  addr(0x0020046A)
+   Line   1325 : Col   7 -  47  addr(0x00200474)
+   Line   1326 : Col   7 -  47  addr(0x0020047C)
+   Line   1327 : Col   7 -  34  addr(0x00200486)
+   Line   1329 : Col   7 -  52  addr(0x0020048E)
+   Line   1331 : Col   9 -  38  addr(0x00200494)
+   Line   1333 : Col   9 -  38  addr(0x0020049C)
+   Line   1336 : Col  11 -  80  addr(0x002004A4)
+   Line   1321 : Col  43 -  47  addr(0x002004B0)
+   Line   1355 : Col   5 -  23  addr(0x002004B6)
+   Line   1358 : Col   3 -  20  addr(0x002004BA)
+   Line   1315 : Col   3 -  29  addr(0x002004C0)
+   Line   1316 : Col   3 -  20  addr(0x002004C8)
+   Line   1319 : Col  12 -  22  addr(0x002004CA)
+   Line   1321 : Col   5 -  16  addr(0x002004CA)
+   Line   1321 : Col  18 -  41  addr(0x002004D2)
+   Line     1349 -   1350 : Col   5 -  82  addr(0x002004E4)
+   Line   1351 : Col   5 -  24  addr(0x00200502)
+
+Function "zcl_SendWriteRsp" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   1445 : Col   3 -  45  addr(0x00200510)
+   Line   1447 : Col   3 -  33  addr(0x0020051C)
+   Line   1448 : Col   3 -  20  addr(0x00200524)
+   Line   1452 : Col  12 -  22  addr(0x00200526)
+   Line   1453 : Col   5 -  16  addr(0x00200526)
+   Line   1455 : Col   7 -  48  addr(0x0020052A)
+   Line   1456 : Col   7 -  61  addr(0x0020052E)
+   Line   1457 : Col   7 -  61  addr(0x0020052E)
+   Line   1453 : Col  44 -  48  addr(0x0020052E)
+   Line   1453 : Col  18 -  42  addr(0x00200546)
+   Line   1462 : Col   5 -  93  addr(0x0020054C)
+   Line   1464 : Col   7 -  18  addr(0x00200556)
+   Line   1473 : Col   5 -  23  addr(0x00200566)
+   Line   1476 : Col   3 -  20  addr(0x00200568)
+
+Function "zcl_registerAttrList" coverage: 88.89%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line    887 : Col   5 -  23  addr(0x002001F8)
+
+Function "zcl_registerClusterOptionList" coverage: 75.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line    944 : Col   5 -  23  addr(0x0020022A)
+
+Function "zcl_registerCmdList" coverage: 75.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line    834 : Col   5 -  23  addr(0x002001CE)
+
+Function "zcl_registerForMsg" coverage: 100.00%
+
+Function "zcl_registerForMsgExt" coverage: 100.00%
+
+Function "zcl_registerReadWriteCB" coverage: 83.33%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   1025 : Col   3 -  22  addr(0x00200258)
+
+Function "zclAuthorizeWrite" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3566 : Col   3 -  61  addr(0x00200EBE)
+   Line   3568 : Col  22 -  68  addr(0x00200EC4)
+   Line   3570 : Col   5 -  33  addr(0x00200ECA)
+   Line   3572 : Col   7 -  69  addr(0x00200ECC)
+   Line   3576 : Col   3 -  32  addr(0x00200EDA)
+
+Function "zclFindClusterOption" coverage: 80.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2754 : Col  43 -  47  addr(0x00200A62)
+   Line   2766 : Col   3 -  18  addr(0x00200A7E)
+
+Function "zclFindCmdRecsList" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2549 : Col  21 -  38  addr(0x002009E0)
+   Line   2558 : Col   5 -  25  addr(0x002009E2)
+   Line   2551 : Col   3 -  25  addr(0x002009E4)
+   Line   2553 : Col   5 -  38  addr(0x002009EC)
+   Line   2561 : Col   3 -  18  addr(0x002009EE)
+
+Function "zclFindNextAttrRec" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2926 : Col   3 -  21  addr(0x00200B4E)
+   Line   2930 : Col   5 -  16  addr(0x00200B50)
+   Line   2930 : Col  18 -  41  addr(0x00200B52)
+   Line     2932 -   2933 : Col   7 -  54  addr(0x00200B58)
+   Line   2936 : Col   9 -  78  addr(0x00200B6E)
+   Line   2937 : Col   9 -  91  addr(0x00200B6E)
+   Line   2930 : Col  43 -  47  addr(0x00200B7A)
+   Line   2949 : Col   3 -  19  addr(0x00200B7E)
+   Line   2940 : Col  11 -  34  addr(0x00200B82)
+   Line   2941 : Col  11 -  39  addr(0x00200B8C)
+   Line   2943 : Col  11 -  26  addr(0x00200B90)
+
+Function "zclFindNextCmdRec" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2846 : Col  21 -  58  addr(0x00200AD8)
+   Line   2849 : Col   3 -  21  addr(0x00200ADC)
+   Line   2851 : Col   5 -  16  addr(0x00200ADE)
+   Line   2890 : Col  13 -  38  addr(0x00200AEE)
+   Line   2893 : Col  13 -  34  addr(0x00200AF2)
+   Line   2895 : Col  13 -  28  addr(0x00200AF6)
+   Line   2888 : Col  16 - 123  addr(0x00200AFA)
+   Line   2851 : Col  41 -  45  addr(0x00200B04)
+   Line   2851 : Col  18 -  39  addr(0x00200B06)
+   Line     2853 -   2854 : Col   7 -  50  addr(0x00200B0C)
+   Line   2856 : Col   9 -  58  addr(0x00200B22)
+   Line   2858 : Col  11 - 117  addr(0x00200B26)
+   Line   2867 : Col  16 - 122  addr(0x00200B2A)
+   Line   2877 : Col  14 -  58  addr(0x00200B36)
+   Line   2879 : Col  11 - 118  addr(0x00200B3A)
+   Line   2906 : Col   3 -  19  addr(0x00200B44)
+
+Function "zclGetAttrDataLengthUsingCB" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3390 : Col  10 -  21  addr(0x00200DDE)
+   Line   3391 : Col  20 -  66  addr(0x00200DE6)
+   Line   3393 : Col   3 -  31  addr(0x00200DEC)
+   Line   3396 : Col   5 -  73  addr(0x00200DEE)
+   Line   3399 : Col   3 -  21  addr(0x00200DFC)
+
+Function "zclGetAuthorizeCB" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2723 : Col  20 -  58  addr(0x00200A50)
+   Line   2725 : Col   3 -  21  addr(0x00200A54)
+   Line   2727 : Col   5 -  36  addr(0x00200A56)
+   Line   2730 : Col   3 -  18  addr(0x00200A58)
+
+Function "zclGetClusterOption" coverage: 100.00%
+
+Function "zclGetReadWriteCB" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2701 : Col  20 -  58  addr(0x00200A44)
+   Line   2703 : Col   3 -  21  addr(0x00200A48)
+   Line   2705 : Col   5 -  36  addr(0x00200A4A)
+   Line   2708 : Col   3 -  18  addr(0x00200A4C)
+
+Function "zclParseInDefaultRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4254 : Col  10 -  28  addr(0x002010E8)
+
+Function "zclParseInDiscAttrsExtRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4416 : Col  10 -  28  addr(0x00201178)
+   Line   4417 : Col   9 -  72  addr(0x00201178)
+   Line     4419 -   4420 : Col   3 -  62  addr(0x00201188)
+   Line   4422 : Col   3 -  32  addr(0x0020118C)
+   Line   4424 : Col   5 -  44  addr(0x0020118E)
+   Line   4429 : Col   7 -  81  addr(0x00201194)
+   Line   4427 : Col  18 -  30  addr(0x0020119E)
+   Line   4436 : Col   3 -  37  addr(0x002011A2)
+
+Function "zclParseInDiscAttrsRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4311 : Col  10 -  28  addr(0x00201108)
+   Line   4312 : Col   9 -  67  addr(0x0020110A)
+   Line     4314 -   4315 : Col   3 -  66  addr(0x00201116)
+   Line   4317 : Col   3 -  32  addr(0x0020111A)
+   Line   4321 : Col   5 -  44  addr(0x0020111C)
+   Line   4326 : Col   7 -  77  addr(0x00201122)
+   Line   4324 : Col  18 -  29  addr(0x00201128)
+   Line   4332 : Col   3 -  37  addr(0x0020112C)
+
+Function "zclParseInDiscCmdsRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4378 : Col  10 -  28  addr(0x00201146)
+   Line   4379 : Col   9 -  55  addr(0x00201146)
+   Line     4382 -   4383 : Col   3 -  50  addr(0x0020114E)
+   Line   4384 : Col   3 -  32  addr(0x00201156)
+   Line   4387 : Col   5 -  44  addr(0x00201158)
+   Line   4388 : Col   5 -  38  addr(0x0020115E)
+   Line   4390 : Col   5 -  16  addr(0x00201160)
+   Line   4392 : Col   7 -  43  addr(0x00201164)
+   Line   4390 : Col  31 -  35  addr(0x0020116C)
+   Line   4390 : Col  18 -  29  addr(0x0020116E)
+   Line   4396 : Col   3 -  37  addr(0x00201174)
+
+Function "zclParseInReadRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3628 : Col  10 -  28  addr(0x00200F24)
+   Line   3630 : Col   9 -  20  addr(0x00200F24)
+   Line   3632 : Col  10 -  21  addr(0x00200F28)
+   Line   3640 : Col   5 -  14  addr(0x00200F2C)
+   Line   3641 : Col   5 -  14  addr(0x00200F2C)
+   Line   3643 : Col   5 -  21  addr(0x00200F2C)
+   Line   3644 : Col   5 -  39  addr(0x00200F32)
+   Line   3646 : Col  13 -  31  addr(0x00200F34)
+   Line   3648 : Col   7 -  59  addr(0x00200F38)
+   Line   3649 : Col   7 -  26  addr(0x00200F40)
+   Line   3652 : Col   7 -  42  addr(0x00200F40)
+   Line   3654 : Col   9 -  22  addr(0x00200F52)
+   Line   3657 : Col   7 -  29  addr(0x00200F52)
+   Line   3636 : Col   3 -  50  addr(0x00200F54)
+   Line   3662 : Col   3 -  82  addr(0x00200F5E)
+   Line   3664 : Col   3 -  68  addr(0x00200F64)
+   Line   3665 : Col   3 -  27  addr(0x00200F6C)
+   Line   3668 : Col   5 -  23  addr(0x00200F70)
+   Line   3669 : Col   5 -  56  addr(0x00200F72)
+   Line   3671 : Col   5 -  34  addr(0x00200F72)
+   Line   3672 : Col   5 -  16  addr(0x00200F76)
+   Line   3674 : Col  27 -  65  addr(0x00200F7E)
+   Line   3676 : Col   7 -  59  addr(0x00200F88)
+   Line   3677 : Col   7 -  16  addr(0x00200F94)
+   Line   3679 : Col   7 -  34  addr(0x00200F94)
+   Line   3680 : Col   7 -  52  addr(0x00200F9C)
+   Line   3682 : Col   9 -  38  addr(0x00200F9E)
+   Line   3684 : Col   9 -  72  addr(0x00200FA6)
+   Line   3685 : Col   9 -  48  addr(0x00200FAE)
+   Line   3686 : Col   9 -  34  addr(0x00200FB8)
+   Line   3688 : Col   9 -  28  addr(0x00200FB8)
+   Line   3691 : Col   9 -  44  addr(0x00200FB8)
+   Line   3693 : Col  11 -  24  addr(0x00200FD2)
+   Line   3696 : Col   9 -  31  addr(0x00200FD2)
+   Line   3672 : Col  31 -  35  addr(0x00200FD4)
+   Line   3672 : Col  18 -  29  addr(0x00200FD8)
+   Line   3701 : Col   3 -  32  addr(0x00200FE4)
+
+Function "zclParseInWriteRspCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3804 : Col  10 -  28  addr(0x002010A0)
+   Line   3805 : Col   9 -  14  addr(0x002010A0)
+   Line   3807 : Col   3 -  97  addr(0x002010A2)
+   Line   3808 : Col   3 -  28  addr(0x002010AA)
+   Line   3810 : Col   5 -  29  addr(0x002010AC)
+   Line   3813 : Col   7 -  48  addr(0x002010B2)
+   Line   3819 : Col   9 -  50  addr(0x002010BA)
+   Line   3820 : Col   9 -  77  addr(0x002010C6)
+   Line   3821 : Col   9 -  18  addr(0x002010D6)
+   Line   3817 : Col   7 -  54  addr(0x002010D8)
+   Line   3825 : Col   5 -  29  addr(0x002010E2)
+   Line   3828 : Col   3 -  33  addr(0x002010E4)
+
+Function "zclProcessInDiscAttrs" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4886 : Col   3 -  58  addr(0x0020160C)
+   Line   4889 : Col   3 -  48  addr(0x0020160E)
+   Line   4889 : Col  50 -  78  addr(0x00201616)
+   Line   4893 : Col   5 - 124  addr(0x0020161E)
+   Line   4889 : Col  80 -  94  addr(0x00201640)
+   Line   4906 : Col   8 -  65  addr(0x00201644)
+   Line   4908 : Col   5 -  66  addr(0x00201648)
+   Line   4911 : Col   3 -  14  addr(0x00201652)
+   Line   4899 : Col   3 -  15  addr(0x00201658)
+   Line   4902 : Col   3 -  55  addr(0x00201658)
+   Line   4904 : Col   5 -  63  addr(0x0020165E)
+
+Function "zclProcessInDiscAttrsCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4930 : Col   9 -  28  addr(0x00201672)
+   Line     4936 -   4937 : Col   3 - 106  addr(0x00201672)
+   Line   4938 : Col   3 -  29  addr(0x00201682)
+   Line   4940 : Col   5 -  11  addr(0x00201684)
+   Line   4943 : Col   3 -  22  addr(0x00201684)
+   Line   4945 : Col   5 -  50  addr(0x00201688)
+   Line   4947 : Col   7 - 126  addr(0x0020168C)
+   Line   4952 : Col   7 -  61  addr(0x00201692)
+   Line   4953 : Col   7 -  65  addr(0x0020169C)
+   Line   4945 : Col  66 -  80  addr(0x002016A6)
+   Line   4957 : Col   5 - 123  addr(0x002016B0)
+   Line   4959 : Col   7 -  27  addr(0x002016BC)
+   Line   4963 : Col   3 -  44  addr(0x002016BE)
+   Line   4969 : Col   3 -  31  addr(0x002016C6)
+   Line   4971 : Col   3 -   9  addr(0x002016CA)
+
+Function "zclProcessInDiscAttrsExtCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4990 : Col   9 -  28  addr(0x002016D6)
+   Line     4996 -   4997 : Col   3 - 100  addr(0x002016D6)
+   Line   4998 : Col   3 -  32  addr(0x002016E6)
+   Line   5000 : Col   5 -  11  addr(0x002016E8)
+   Line   5004 : Col   3 -  22  addr(0x002016E8)
+   Line   5006 : Col   5 -  50  addr(0x002016EC)
+   Line   5008 : Col   7 - 126  addr(0x002016F0)
+   Line   5013 : Col   7 -  68  addr(0x002016F6)
+   Line   5014 : Col   7 -  76  addr(0x00201700)
+   Line   5015 : Col   7 - 111  addr(0x0020170A)
+   Line   5006 : Col  66 -  80  addr(0x0020170A)
+   Line   5019 : Col   5 - 123  addr(0x0020171E)
+   Line   5021 : Col   7 -  27  addr(0x0020172A)
+   Line   5025 : Col   3 -  47  addr(0x0020172C)
+   Line   5032 : Col   3 -  34  addr(0x00201734)
+   Line   5034 : Col   3 -   9  addr(0x00201738)
+
+Function "zclProcessInDiscCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   5056 : Col   3 -  57  addr(0x0020179A)
+   Line   5059 : Col   3 -  48  addr(0x0020179C)
+   Line   5059 : Col  50 -  76  addr(0x002017A4)
+   Line   5061 : Col   5 - 144  addr(0x002017AA)
+   Line   5059 : Col  78 -  91  addr(0x002017BC)
+   Line   5075 : Col   3 -  15  addr(0x002017C0)
+   Line   5077 : Col   5 -  50  addr(0x002017C2)
+   Line   5079 : Col   7 - 146  addr(0x002017CA)
+   Line   5084 : Col   7 -  38  addr(0x002017D0)
+   Line   5077 : Col  59 -  72  addr(0x002017D8)
+   Line   5077 : Col  52 -  57  addr(0x002017DC)
+   Line   5089 : Col   3 - 141  addr(0x002017EC)
+   Line   5099 : Col   3 -  41  addr(0x00201810)
+   Line   5102 : Col   3 -  20  addr(0x00201810)
+   Line     5104 -   5106 : Col   3 -  70  addr(0x00201810)
+   Line   5108 : Col   3 -  32  addr(0x00201838)
+   Line   5110 : Col   3 -  27  addr(0x0020183E)
+   Line   5112 : Col   5 -  16  addr(0x00201844)
+   Line   5068 : Col   3 -  37  addr(0x00201848)
+   Line   5070 : Col   3 -  30  addr(0x0020184E)
+   Line   5072 : Col   5 -  17  addr(0x00201854)
+
+Function "zclProcessInReadCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4459 : Col   3 -  44  addr(0x002011CE)
+   Line   4462 : Col   3 -  86  addr(0x002011D0)
+   Line   4464 : Col   3 -  36  addr(0x002011D0)
+   Line   4465 : Col   3 -  27  addr(0x002011DE)
+   Line   4467 : Col   5 -  17  addr(0x002011E2)
+   Line   4470 : Col   3 -  41  addr(0x002011E4)
+   Line   4471 : Col   3 -  14  addr(0x002011EA)
+   Line   4501 : Col   7 -  59  addr(0x002011EE)
+   Line   4496 : Col   9 -  50  addr(0x002011F4)
+   Line   4471 : Col  38 -  42  addr(0x002011F8)
+   Line   4471 : Col  16 -  36  addr(0x002011FC)
+   Line   4473 : Col  25 -  63  addr(0x00201202)
+   Line   4475 : Col   5 -  43  addr(0x00201206)
+   Line   4477 : Col   5 - 110  addr(0x00201212)
+   Line   4484 : Col   7 -  61  addr(0x0020123C)
+   Line     4486 -   4487 : Col   9 -  82  addr(0x00201240)
+   Line   4488 : Col   9 -  54  addr(0x00201262)
+   Line   4490 : Col  11 -  49  addr(0x00201268)
+   Line   4491 : Col  11 -  54  addr(0x0020126C)
+   Line     4506 -   4508 : Col   3 -  51  addr(0x00201274)
+   Line   4509 : Col   3 -  29  addr(0x00201290)
+   Line   4511 : Col   3 -  14  addr(0x00201296)
+
+Function "zclProcessInWriteCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4529 : Col   9 -  24  addr(0x002012A4)
+   Line   4530 : Col   9 -  14  addr(0x002012A4)
+   Line   4533 : Col   3 -  46  addr(0x002012A4)
+   Line   4534 : Col   3 -  47  addr(0x002012A4)
+   Line     4537 -   4538 : Col   5 -  66  addr(0x002012B0)
+   Line   4539 : Col   5 -  30  addr(0x002012BA)
+   Line   4541 : Col   7 -  19  addr(0x002012BE)
+   Line   4544 : Col   5 -  19  addr(0x002012C0)
+   Line   4547 : Col   3 -  14  addr(0x002012C2)
+   Line   4612 : Col   7 -  20  addr(0x002012C8)
+   Line   4614 : Col   9 -  75  addr(0x002012CA)
+   Line   4602 : Col   9 -  22  addr(0x002012CE)
+   Line   4604 : Col  11 -  73  addr(0x002012D0)
+   Line   4547 : Col  39 -  43  addr(0x002012DA)
+   Line   4547 : Col  16 -  37  addr(0x002012DE)
+   Line   4550 : Col  20 -  56  addr(0x002012EA)
+   Line     4552 -   4553 : Col   5 -  56  addr(0x002012EA)
+   Line   4555 : Col   7 - 103  addr(0x00201314)
+   Line   4561 : Col   7 -  57  addr(0x00201324)
+   Line   4566 : Col   9 -  43  addr(0x0020132E)
+   Line   4569 : Col  11 - 116  addr(0x00201338)
+   Line   4573 : Col  13 -  82  addr(0x00201346)
+   Line   4575 : Col  13 -  71  addr(0x00201350)
+   Line   4577 : Col  13 -  40  addr(0x0020135C)
+   Line   4557 : Col   9 -  75  addr(0x0020135E)
+   Line   4559 : Col   9 -  14  addr(0x00201368)
+   Line   4620 : Col   3 -  16  addr(0x00201368)
+   Line   4622 : Col   5 -  29  addr(0x0020136A)
+   Line   4623 : Col   5 -  36  addr(0x0020136E)
+   Line   4628 : Col   7 -  59  addr(0x00201372)
+   Line   4629 : Col   7 -  31  addr(0x00201376)
+   Line     4632 -   4634 : Col   5 -  54  addr(0x0020137A)
+   Line   4635 : Col   5 -  32  addr(0x0020137E)
+   Line   4638 : Col   3 -  14  addr(0x00201384)
+   Line     4581 -   4582 : Col  13 -  61  addr(0x0020138C)
+   Line     4587 -   4588 : Col  11 -  76  addr(0x0020139E)
+   Line   4592 : Col   9 -  54  addr(0x002013AE)
+   Line   4595 : Col  11 -  51  addr(0x002013B6)
+   Line   4596 : Col  11 -  64  addr(0x002013BA)
+
+Function "zclProcessInWriteUndividedCmd" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   4698 : Col  10 -  20  addr(0x002013DA)
+   Line   4699 : Col   9 -  14  addr(0x002013DA)
+   Line   4702 : Col   3 -  46  addr(0x002013DA)
+   Line     4705 -   4706 : Col   3 -  72  addr(0x002013DE)
+   Line   4707 : Col   3 -  28  addr(0x002013F0)
+   Line   4709 : Col   5 -  17  addr(0x002013F4)
+   Line   4714 : Col   3 -  14  addr(0x002013F6)
+   Line     4758 -   4759 : Col   7 -  65  addr(0x002013FA)
+   Line   4727 : Col   5 -  55  addr(0x00201408)
+   Line   4735 : Col   5 -  61  addr(0x00201412)
+   Line   4743 : Col   5 -  64  addr(0x0020141A)
+   Line   4752 : Col   5 -  39  addr(0x0020141E)
+   Line   4754 : Col   7 -  84  addr(0x00201424)
+   Line   4763 : Col   5 -  36  addr(0x0020142C)
+   Line   4768 : Col   5 -  22  addr(0x00201430)
+   Line   4714 : Col  39 -  43  addr(0x00201430)
+   Line   4714 : Col  16 -  37  addr(0x0020143A)
+   Line   4716 : Col  20 -  56  addr(0x00201444)
+   Line     4718 -   4719 : Col   5 -  57  addr(0x0020144C)
+   Line   4722 : Col   7 -  73  addr(0x00201460)
+   Line   4723 : Col   7 -  60  addr(0x00201464)
+   Line   4724 : Col   7 -  12  addr(0x0020146C)
+   Line   4771 : Col   3 -  27  addr(0x0020146C)
+   Line   4772 : Col   3 -  34  addr(0x00201470)
+   Line   4778 : Col  11 -  47  addr(0x00201478)
+   Line   4781 : Col   5 -  69  addr(0x00201478)
+   Line   4782 : Col   5 -  30  addr(0x00201482)
+   Line   4784 : Col   7 -  33  addr(0x00201484)
+   Line   4785 : Col   7 -  19  addr(0x0020148A)
+   Line   4730 : Col   7 -  69  addr(0x00201490)
+   Line   4738 : Col   7 -  61  addr(0x00201496)
+   Line   4746 : Col   7 -  66  addr(0x0020149C)
+   Line   4788 : Col   5 -  58  addr(0x002014A0)
+   Line   4791 : Col   5 -  16  addr(0x002014A0)
+   Line   4838 : Col   7 -  38  addr(0x002014AE)
+   Line   4843 : Col   7 -  28  addr(0x002014B2)
+   Line   4791 : Col  41 -  45  addr(0x002014B8)
+   Line   4791 : Col  18 -  39  addr(0x002014C0)
+   Line   4794 : Col  22 -  58  addr(0x002014C8)
+   Line   4795 : Col  22 -  54  addr(0x002014CA)
+   Line     4797 -   4798 : Col   7 -  59  addr(0x002014CA)
+   Line   4804 : Col   7 -  47  addr(0x002014E4)
+   Line   4805 : Col   7 -  42  addr(0x002014EA)
+   Line   4807 : Col   7 -  41  addr(0x002014EE)
+   Line   4810 : Col   9 -  58  addr(0x002014F2)
+   Line     4813 -   4814 : Col   9 -  57  addr(0x002014FC)
+   Line     4819 -   4820 : Col   9 -  74  addr(0x0020150C)
+   Line     4822 -   4823 : Col   9 -  74  addr(0x0020151E)
+   Line   4827 : Col   7 -  41  addr(0x0020152C)
+   Line   4829 : Col   9 -  49  addr(0x00201530)
+   Line   4830 : Col   9 -  62  addr(0x00201538)
+   Line   4833 : Col   9 -  60  addr(0x00201544)
+   Line   4846 : Col   5 -  29  addr(0x002015A0)
+   Line   4847 : Col   5 -  37  addr(0x002015A6)
+   Line   4852 : Col   7 -  59  addr(0x002015AA)
+   Line   4853 : Col   7 -  31  addr(0x002015AE)
+   Line   4856 : Col   5 -  32  addr(0x002015B2)
+   Line     4859 -   4861 : Col   3 -  52  addr(0x002015B6)
+   Line   4862 : Col   3 -  30  addr(0x002015BA)
+   Line   4864 : Col   3 -  14  addr(0x002015C0)
+
+Function "zclReadAttrDataUsingCB" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3419 : Col  20 -  66  addr(0x00200E0C)
+   Line   3421 : Col   3 -  25  addr(0x00200E12)
+   Line   3423 : Col   5 -  18  addr(0x00200E14)
+   Line   3426 : Col   3 -  31  addr(0x00200E18)
+   Line   3429 : Col   5 -  90  addr(0x00200E1E)
+   Line   3432 : Col   3 -  41  addr(0x00200E2C)
+
+Function "zclSetSecurityOption" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   2814 : Col   3 -  56  addr(0x00200AB8)
+   Line   2815 : Col   3 -  24  addr(0x00200ABC)
+   Line   2817 : Col   5 -  17  addr(0x00200ABE)
+   Line   2819 : Col   7 -  40  addr(0x00200ACC)
+   Line   2823 : Col   7 -  49  addr(0x00200ACC)
+   Line   2826 : Col   1 -   1  addr(0x00200ACE)
+
+Function "zclWriteAttrData" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3481 : Col   3 -  57  addr(0x00200E36)
+   Line   3483 : Col   5 -  59  addr(0x00200E3C)
+   Line   3484 : Col   5 -  39  addr(0x00200E44)
+   Line   3486 : Col   7 -  93  addr(0x00200E46)
+   Line   3489 : Col  16 -  87  addr(0x00200E54)
+   Line   3490 : Col   9 -  68  addr(0x00200E5C)
+   Line   3492 : Col   9 -  36  addr(0x00200E66)
+   Line   3496 : Col   9 -  42  addr(0x00200E68)
+   Line   3502 : Col   5 -  34  addr(0x00200E6C)
+   Line   3505 : Col   3 -  20  addr(0x00200E6E)
+
+Function "zclWriteAttrDataUsingCB" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   3525 : Col   3 -  57  addr(0x00200E82)
+   Line   3527 : Col   5 -  59  addr(0x00200E8A)
+   Line   3528 : Col   5 -  39  addr(0x00200E92)
+   Line   3530 : Col  24 -  70  addr(0x00200E96)
+   Line   3531 : Col   7 -  35  addr(0x00200E9E)
+   Line     3534 -   3535 : Col   9 -  70  addr(0x00200EA0)
+   Line   3539 : Col   9 -  45  addr(0x00200EB0)
+   Line   3545 : Col   5 -  34  addr(0x00200EB4)
+   Line   3548 : Col   3 -  20  addr(0x00200EB6)
+
+Function "zcl_DeviceOperational" coverage: 87.50%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line   1060 : Col   5 -  20  addr(0x0020026E)
+
+Function "zcl_addExternalFoundationHandler" coverage: 90.91%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line    607 : Col   9 -  31  addr(0x0020014A)
+   Line    608 : Col   9 -  25  addr(0x0020014E)
+
+Function "zcl_getExternalFoundationHandler" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\stack\zcl\zcl.c
+
+   Line    648 : Col   9 -  47  addr(0x00200156)
+   Line    651 : Col   3 -  38  addr(0x00200158)
+   Line    653 : Col   3 -  25  addr(0x0020015E)
+   Line      655 -    656 : Col   5 -  71  addr(0x00200160)
+   Line    660 : Col   5 -  24  addr(0x0020016A)
+   Line    663 : Col   3 -  26  addr(0x0020016C)
+   Line    658 : Col   7 -  43  addr(0x00200170)
+
++------------------------------------------+
+
+Module "startup_ewarm" coverage: 55.56%
+
+Function "FaultISR" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\startup_ewarm.c
+
+   Line    350 : Col   3 -  10  addr(0x002083FE)
+
+Function "IntDefaultHandler" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\startup_ewarm.c
+
+   Line    367 : Col   3 -  10  addr(0x00208400)
+
+Function "NmiSR" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\startup_ewarm.c
+
+   Line    333 : Col   3 -  10  addr(0x002083FC)
+
+Function "PortCPortAIsr" coverage: 0.00%
+
+   Statements(s) not covered:
+
+   File D:\fuzzing-coverage-baseline\Components\hal\target\CC2538\startup_ewarm.c
+
+   Line    318 : Col   3 -  20  addr(0x002083F8)
+
+Function "ResetIsr" coverage: 100.00%
+
+=============================================

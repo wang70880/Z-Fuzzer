@@ -17,7 +17,7 @@
 /******************************************
  * System variables configuration
  ******************************************/
-static char* seedfile = "C:\\\\Users\\\\zfuzzer\\\\zfuzzer\\\\Z-Fuzzer\\\\zstack_iar\\\\seedfile";
+static char* seedfile = "D:\\\\Z-Fuzzer\\\\zstack_iar\\\\seedfile";
 
 const uint16 zclTest_clusterRevision_all = 0x0001; 
 

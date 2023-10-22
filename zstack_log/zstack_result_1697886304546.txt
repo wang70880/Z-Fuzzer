@@ -1,0 +1,52 @@
+
+************* [2023-10-21 18:38:49,321] *************
+Received message:'\x00\x01\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+msg 0: start=2, end=47. Content:
+2e 31 20 30 20 30 20 30 d a ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+cluster ID: 2031
+Data Length: 2B
+Date content:
+30 20 30 20 30 D A FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Test zcl_ProcessMessageMSG:0x8
+
+************* [2023-10-21 18:38:50,629] *************
+
+************* [2023-10-21 18:38:53,153] *************
+Received message:'\x01\x01\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+msg 0: start=2, end=48. Content:
+2f 31 20 30 20 30 20 30 d a ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+cluster ID: 2031
+Data Length: 2C
+Date content:
+30 20 30 20 30 D A FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Test zcl_ProcessMessageMSG:0x8
+
+************* [2023-10-21 18:38:54,297] *************
+
+************* [2023-10-21 18:38:56,820] *************
+Received message:'\x04\x01\x00\x01\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+msg 0: start=2, end=51. Content:
+32 31 20 30 20 31 20 30 20 30 20 30 d a ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+cluster ID: 2031
+Data Length: 2F
+Date content:
+30 20 31 20 30 20 30 20 30 D A FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Test zcl_ProcessMessageMSG:0x8
+
+************* [2023-10-21 18:38:57,971] *************
+
+************* [2023-10-21 18:39:00,497] *************
+Received message:'\x05\x01\x00\x01\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+msg 0: start=2, end=52. Content:
+33 31 20 30 20 31 20 30 20 30 20 30 d a ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+cluster ID: 2031
+Data Length: 30
+Date content:
+30 20 31 20 30 20 30 20 30 D A FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Test zcl_ProcessMessageMSG:0x8
+
+************* [2023-10-21 18:39:01,646] *************

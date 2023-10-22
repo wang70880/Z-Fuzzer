@@ -1,0 +1,39 @@
+[root] 2023-10-22 18:07:21 INFO: Msg id: 0 with status: 6
+'\x00\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:21 INFO: Cumulative coverage for edge and statemetns: 98, 154
+[root] 2023-10-22 18:07:22 INFO: Msg id: 1 with status: 6
+'\x01\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:22 INFO: Cumulative coverage for edge and statemetns: 98, 154
+[root] 2023-10-22 18:07:24 INFO: Msg id: 2 with status: 6
+'\x04\x01\x00\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:24 INFO: Cumulative coverage for edge and statemetns: 98, 154
+[root] 2023-10-22 18:07:25 INFO: Msg id: 3 with status: 6
+'\x05\x01\x00\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:25 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:27 INFO: Msg id: 4 with status: 6
+'\x08\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:27 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:29 INFO: Msg id: 5 with status: 6
+'\t\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:29 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:31 INFO: Msg id: 6 with status: 6
+'\x0c\x01\x00\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:31 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:33 INFO: Msg id: 7 with status: 6
+'\r\x01\x00\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:33 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:35 INFO: Msg id: 8 with status: 6
+'\x10\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:35 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:37 INFO: Msg id: 9 with status: 6
+'\x11\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:37 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:39 INFO: Msg id: 10 with status: 6
+'\x14\x01\x00\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:39 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:41 INFO: Msg id: 11 with status: 6
+'\x15\x01\x00\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:41 INFO: Cumulative coverage for edge and statemetns: 106, 157
+[root] 2023-10-22 18:07:42 INFO: Msg id: 12 with status: 6
+'\x18\x01\x00\x00\x00'
+[root] 2023-10-22 18:07:42 INFO: Cumulative coverage for edge and statemetns: 106, 157

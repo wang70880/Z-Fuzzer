@@ -1,0 +1,48 @@
+
+************* [2023-10-21 20:03:24,108] *************
+Received message:'\x00\x01\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 20:03:25,890] *************
+
+************* [2023-10-21 20:03:28,449] *************
+Received message:'\x00\x01\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 20:03:30,236] *************
+
+************* [2023-10-21 20:03:32,788] *************
+Received message:'\x00\x01\x01\x00\x00\x00\x08zcltest'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 20:03:34,102] *************
+
+************* [2023-10-21 20:03:36,657] *************
+Received message:'\x00\x01\x02\x00\x00\x08zcltest'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 20:03:37,775] *************
+
+************* [2023-10-21 20:03:40,326] *************
+Received message:'\x00\x01\x03\x00\x00\x08zcltest'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 20:03:42,226] *************
+
+************* [2023-10-21 20:03:44,776] *************
+Received message:'\x00\x01\x04\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 20:03:45,996] *************

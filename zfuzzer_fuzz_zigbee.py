@@ -312,14 +312,15 @@ def main():
     session = Session(
         target=Target(connection=SocketConnection("127.0.0.1", 34567, proto='tcp', recv_timeout=90.0)),
         receive_data_after_fuzz=True,
-        sleep_time=2.5,
+        sleep_time=0.1,
         restart_callbacks=[lib_zstack.restart_callback],
     )
 
     build_zcl_message()
     session.connect(s_get("AFIncomingMSG"), callback=lib_zstack.select_seed)
     session.register_post_test_case_callback(lib_zstack.check_execution)
-    session.fuzz()
+    MAX_N_TEST = 200000
+    session.fuzz(MAX_N_TEST)
     return
 
 

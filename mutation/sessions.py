@@ -601,7 +601,7 @@ class Session(pgraph.Graph):
 
         self._message_check(self._iterate_messages())
 
-    def fuzz(self):
+    def fuzz(self, n_total_mutations=None):
         """Fuzz the entire protocol tree.
 
         Iterates through and fuzzes all fuzz cases, skipping according to
@@ -615,7 +615,10 @@ class Session(pgraph.Graph):
             None
         """
         self.total_mutant_index = 0
-        self.total_num_mutations = self.num_mutations()
+        if n_total_mutations is None:
+            self.total_num_mutations = self.num_mutations()
+        else:
+            self.total_num_mutations = n_total_mutations
 
         self._main_fuzz_loop(self._iterate_protocol())
 

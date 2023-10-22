@@ -1,0 +1,56 @@
+
+************* [2023-10-21 19:42:14,474] *************
+Received message:'\t\x00\x00\x00\x00\x01\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 19:42:16,369] *************
+
+************* [2023-10-21 19:42:18,930] *************
+Received message:'\t\x00\x00\x00\x00\x01\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 19:42:20,713] *************
+
+************* [2023-10-21 19:42:23,278] *************
+Received message:'\x12\x00\x00\x00\x00\x01\x01\x00\x00\x00\x08zcltest'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 19:42:25,169] *************
+
+************* [2023-10-21 19:42:27,729] *************
+Received message:'\x11\x00\x00\x00\x00\x01\x02\x00\x00\x08zcltest'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 19:42:29,756] *************
+
+************* [2023-10-21 19:42:32,319] *************
+Received message:'\x11\x00\x00\x00\x00\x01\x03\x00\x00\x08zcltest'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 19:42:34,208] *************
+
+************* [2023-10-21 19:42:36,755] *************
+Received message:'\n\x00\x00\x00\x00\x01\x04\x00\x00\x00'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 19:42:38,660] *************
+
+************* [2023-10-21 19:42:41,212] *************
+Received message:'\x11\x00\x00\x00\x00\x01\x05\x00\x00\x08zcltest'
+D:\Z-Fuzzer>"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" --silent -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.general.xcl" --debug_file "D:\Z-Fuzzer\Debug\Exe\zstack.out"  --code_coverage_file "D:\Z-Fuzzer\Debug\Coverage\coverage.txt" --backend -f "D:\Z-Fuzzer\Debug\settings\zstack.Debug.driver.xcl"  
+Test zcl_ProcessMessageMSG:0x0
+Test zcl_ProcessMessageMSG:0x0
+
+************* [2023-10-21 19:42:43,113] *************

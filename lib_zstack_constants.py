@@ -8,10 +8,10 @@ map_size = 1 << map_size_pow2
 
 proj_dir = os.getcwd()
 seed_file = proj_dir + '\\zstack_iar\\seedfile'
-coverage_file = proj_dir + '\\zstack_iar\\Coverage\\coverage.txt'
+coverage_file = proj_dir + '\\Debug\\Coverage\\coverage.txt'
 cfg_file = proj_dir + '\\offline_parser\\zcl_cfg.json'
 cmd = 'C:\\\\Windows\\\\System32\\\\cmd.exe'
-zstack_execution = proj_dir + '\\build\\zstack\\ZStackExecute.bat'
+zstack_execution = proj_dir + '\\Build\\zstack\\ZStackExecute.bat'
 zstack_log_dir = proj_dir + '\\zstack_log\\'
 
 zcl_valid_min_header_len = 3
@@ -58,4 +58,4 @@ command_list = hex_list_render(command_list)
 status_codes = hex_list_render(status_codes)
 
 if __name__ == '__main__':
-    print zstack_log_dir+"zstack_result.txt"
+    print (zstack_log_dir+"zstack_result.txt")

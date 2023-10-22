@@ -1,8 +1,8 @@
 import json
 import lib_zstack_constants as constant
-import lib_zstack as lib
+import lib_zstack
 from mutation import helpers
-
+from collections import defaultdict
 
 class Coverage:
     """
@@ -13,7 +13,7 @@ class Coverage:
         self.function_hits = [0] * (constant.map_size >> 8)  # cumulative hit counts of functions
         self.trace_bits = [0] * constant.map_size  # bitmap for the current execution
         self.virgin_bits = [255] * constant.map_size  # bitmap for all the tuples
-        self.statement_bits = [0] * constant.map_size  # bitmap for statements
+        self.statement_bits = defaultdict(int)  # bitmap for statements
         self.trace = {}
 
         self.interest = []
@@ -56,12 +56,12 @@ class Coverage:
                     (self.count_class_lookup8[i] << 8) | self.count_class_lookup8[j]
         return
 
-    def parse_coverage_result(self):
+    def parse_coverage_result(self, cfg_file, coverage_file):
         """
         Parse CFG of ZCl module to calculate coverage of the current Z-Stack execution
         :return: the module coverage
         """
-        with open(constant.cfg_file, 'r') as cfg:
+        with open(cfg_file, 'r') as cfg:
             cfg_dict = json.load(cfg)
 
         module_prefix = 'Module '
@@ -75,16 +75,22 @@ class Coverage:
 
         total_statement = 0
         total_edge = 0
-        self.trace_bits = [0] * constant.map_size
-        coverage = open(constant.coverage_file, 'r')
+        #self.trace_bits = [0] * constant.map_size
+        coverage = open(coverage_file, 'r')
         for line in coverage:
-            if module_prefix in line and cfg_dict.get('name') in line:  # Find ZCL module
-                find_module = True
-                cov = line.split(':')[1][:-2]
-                module_coverage = float(cov)
+            if module_prefix in line:  # Find ZCL module
+                module_name = line.split('"', 1)[1].split('"', 1)[0].strip()
+                if module_name == cfg_dict.get('name'):
+                    find_module = True
+                    cov = line.split(':')[1][:-2]
+                    module_coverage = float(cov)
+                    #print(f"Module coverage: {module_name}: {module_coverage}")
+                else:
+                    find_module = False
             elif find_module and function_prefix in line:  # Search function from CFG
                 function_name = line.split()[1].strip('"')
                 function_coverage = line.split(':')[1][:-2]
+                #print(f"Function coverage: {function_name}: {function_coverage}")
                 function_rec = search_function(cfg_dict, function_name)
                 if function_rec is not None:
                     self.total_function += 1
@@ -93,7 +99,7 @@ class Coverage:
                     if curr_function is not None and curr_function.name != function_rec.get('name'):
                         # update bitmap for the current function
                         # prev_location = self.update_trace_bitmap(curr_function, prev_location)
-                        self.update_trace_bitmap(curr_function)
+                        self.update_trace_bitmap(cfg_file, curr_function)
                         self.update_trace(curr_function)
                     find_function = True
                     curr_function = Function(curr_function_index)
@@ -118,16 +124,15 @@ class Coverage:
                     rang = range(int(line_array[1]), int(line_array[3]) + 1)
                     for i in rang:
                         curr_function.add_uncovered(i)
-            elif '=' in line and find_function:  # End of coverage file
+            elif '=====' in line and find_function:  # End of coverage file
+                #print(line)
                 # Update bitmap for the last function
-                self.update_trace_bitmap(curr_function)
+                self.update_trace_bitmap(cfg_file, curr_function)
                 self.update_trace(curr_function)
                 curr_function = None
 
-        if self.total_statement == 0:
-            self.total_statement = total_statement
-        if self.total_edge == 0:
-            self.total_edge = total_edge
+        self.total_statement = total_statement
+        self.total_edge = total_edge
         self.classify_counts(self.trace_bits)
         return module_coverage
 
@@ -150,7 +155,7 @@ class Coverage:
         iterate = constant.map_size >> 2
         index = 0
         while iterate > 0:
-            if lib.unlikely(trace_bits[index]):
+            if lib_zstack.unlikely(trace_bits[index]):
                 mem16 = trace_bits
                 trace_bits[index] = self.count_class_lookup16[mem16[index]]
                 trace_bits[index + 1] = self.count_class_lookup16[mem16[index + 1]]
@@ -159,13 +164,15 @@ class Coverage:
             iterate -= 1
         return
 
-    def update_trace_bitmap(self, function):
+    def update_trace_bitmap(self, cfg_file, function):
         """
         Update trace bitmap for the current function
         :param function: the current function found in coverage report
         """
         if function.coverage == 0.0:
             return
+        #print(f"Coverage: {function.coverage}")
+        #print(f"# covered edges before: {self.calculate_explored_edges()}")
         prev_location = 0
         uncovered = function.uncovered_stmt
         block_list = function.block_list
@@ -178,7 +185,7 @@ class Coverage:
                 function.block_trace.append("%d->%d" % (prev_location, location))
                 prev_location = location >> 1
                 # If a block is accessed, we also record its statements in statement bitmap
-                self.update_statement_bitmap(block)
+                self.update_statement_bitmap(cfg_file, block)
             elif int(block.get('block_number')) in skip_block or not is_accessed(block.get('statements'), uncovered):
                 continue
 
@@ -190,17 +197,24 @@ class Coverage:
                     function.block_trace.append("%d->%d" % (prev_location, location))
                     prev_location = location >> 1
                     # If a block is accessed, we also record its statements in statement bitmap
-                    self.update_statement_bitmap(succ_block)
+                    self.update_statement_bitmap(cfg_file, succ_block)
                 elif succ not in skip_block:
                     skip_block.append(succ)
+        #print(f"# covered edges after: {self.calculate_explored_edges()}")
         return prev_location
+    
+    def calculate_explored_edges(self):
+        return len([x for x in self.trace_bits if x > 0])
 
-    def update_statement_bitmap(self, block):
+    def calculate_explored_statements(self):
+        return len([x for x, y in self.statement_bits.items() if y > 0])
+
+    def update_statement_bitmap(self, cfg_file, block):
         stmt_list = block.get('statements')
         if len(stmt_list) > 0:
             for line_num in stmt_list:
                 if line_num != 1:  # statement 1 means the last block
-                    self.statement_bits[line_num] += 1
+                    self.statement_bits[(cfg_file,line_num)] += 1
         return
 
 
